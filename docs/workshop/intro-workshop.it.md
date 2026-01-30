@@ -156,6 +156,11 @@ Prima di iniziare a caricare nuovi dati nel progetto, è necessario definire il 
 
 Salvare quindi il progetto dal menù ***Progetto > Salva***.
 
+??? Come funzionano le proiezioni?
+    
+    Qual è la "vera dimensione" di un territorio sulla mappa?
+    Il sito The [True Size of...](https://thetruesize.com/#?borders=1~!MTQwMjEwNTU.MzU0NTg0Mg*MzI3NTIzOTc(NjY0ODg4Mg~!CONTIGUOUS_US*MTAwMjQwNzU.MjUwMjM1MTc(MTc1)MQ~!IN*NTI2NDA1MQ.Nzg2MzQyMQ)Mg~!CN*OTkyMTY5Nw.NzMxNDcwNQ(MjI1)Mw) in modo interattivo si sviluppa a partire da questa domanda per spiegare in modo semplice l'influenza della scelta di una proiezione su come siamo abituati a vedere il mondo su una mappa.
+
 #### Caricamento dati
 
 I dati vettoriali dell'esercizio sono forniti in forniti in formato shapefile. L'estensione di riferimento in questo caso è *.shp* che contiene la geometria del dataset. Tuttavia, per poter leggere correttamente il dato all'interno dell'ambiente GIS, ogni file .shp è sempre accompagnato da almeno altri due file "ombra" con estensione *.shx* (che contiene gli indici spaziali) e *.dbf* (che contiene il database, ovvero la componente tabellare del dataset). Per questo motivo è estremamente importante che dopo aver unzippato le cartelle dati scaricate in precedenza, non si cancellino i dati senza estensione .shp anche se all'apparenza potrebbero risultare inutili.

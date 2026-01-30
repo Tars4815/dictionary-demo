@@ -30,17 +30,18 @@ L'evento si articola in una serie di incontri, workshop e presentazioni su più 
 
 Dal 2006, l'organizzazione della conferenza è coordinata a livello globale dall'**Open Geospatial Foundation** (OSGEO) e resa possibile da un comitato organizzativo locale di volontari.
 
-La prossima conferenza FOSS4G avrà luogo a **Auckland in Nuova Zelanda** dal 17 al 23 novembre 2025.
+La prossima conferenza FOSS4G avrà luogo a **Hiroshima in Giappone** dal 30 agosto al 5 settembre 2026.
 
-![Logo FOSS4G 2025](https://2025.foss4g.org/_app/immutable/assets/Nav-Logo.W_Yr4oR8.svg)
+![Logo FOSS4G 2026](https://2026.foss4g.org/images/logo-03.svg)
 
-Parallelamente, con cadenza annuale, vengono organizzate delle conferenze locali, tendenzialmente a livello nazionale, dai local chapter di OSGeo. In Italia la conferenza prende il nome di **FOSS4G-IT**. Nel 2023 avrà luogo a **Bari** dall'11 al 14 giugno nell'ambito dei **GEODaysIT 2023**.
+Parallelamente, con cadenza annuale, vengono organizzate delle conferenze locali, tendenzialmente a livello nazionale, dai local chapter di OSGeo. In Italia la conferenza prende il nome di **FOSS4G-IT**. Nel 2026 avrà luogo a **Trento** dal 9 all'11 luglio in concomitanza di **OSMit 2026** per la comunità italiana di OpenStreetMap.
 
 Maggiori info:
 
+- [Sito ufficiale FOSS4G-IT 2026](https://2026.foss4g.it/)
 - [Sito ufficiale delle conferenze globali](https://foss4g.org/)
-- [FOSS4G 2025 Auckland](https://2025.foss4g.org/)
-- [FOSS4G EU 2025 Mostar](https://2025.europe.foss4g.org/)
+- [FOSS4G 2026 Hiroshima](https://2026.foss4g.org/en/)
+- [FOSS4G EU 2026 Timisoara](https://2026.europe.foss4g.org/)
 - [Canale YouTube ufficiale](https://www.youtube.com/@FOSS4G)
 
 ## OSGEO

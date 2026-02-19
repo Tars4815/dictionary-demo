@@ -10,9 +10,15 @@ Here you will find learning material focused on QGIS and its applications in dif
 * **[QGIS for Fundamentals of Representation](arch-pc-about.md)** 🇮🇹 🇬🇧 - Last update: November 2022
 * **[Introduction to QGIS for Urban Planning](urb/about.it.md)** 🇮🇹 - Under construction
 
-## Workshop & Other
+## Other
 
-* **[Intro QGIS Workshop](workshop/intro-workshop.it.md)** 🇮🇹 - Last update: May 22nd, 2025
+### Workshops
+
+* **[Intro QGIS Workshop](workshop/intro-workshop.it.md)** 🇮🇹 - Last update: February 19th, 2026
+
+### Map remake
+
+* **[The Winter Catch: Mapping Italy’s 1-Hour Alpine Reach](map-remake/winter-sports.md)** 🇬🇧 - Last update: February 19th, 2026
 
 ## About the author(s)
 

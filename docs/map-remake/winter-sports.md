@@ -127,3 +127,37 @@ Expression: *"pop_sum" / ($area / 1000000)*
 
 [UNDER CONSTRUCTION]
 
+### 6. Comparison with 2026 Italian athletes hometown
+
+Query WikiData
+
+```
+SELECT ?athlete ?athleteLabel (GROUP_CONCAT(DISTINCT ?eventLabel; separator=", ") AS ?events)
+WHERE {
+  {
+    SELECT DISTINCT ?athlete ?event WHERE {
+      # 1. Start with the most restrictive filter: Italian Citizens
+      ?athlete wdt:P27 wd:Q38 .
+      
+      # 2. Check for the specific Occupation (Olympic athlete)
+      ?athlete wdt:P106/wdt:P279* wd:Q50995749 .
+      
+      # 3. Connect to the 2026 Winter Olympics hierarchy
+      ?event wdt:P361* wd:Q4630399 .
+      { ?event wdt:P710 ?athlete . }
+      UNION
+      { ?athlete wdt:P1344 ?event . }
+    }
+  }
+  
+  # 4. Fetch labels outside the complex logic to prevent timeouts
+  SERVICE wikibase:label { 
+    bd:serviceParam wikibase:language "[AUTO_LANGUAGE],it,en". 
+    ?athlete rdfs:label ?athleteLabel .
+    ?event rdfs:label ?eventLabel .
+  }
+}
+GROUP BY ?athlete ?athleteLabel
+ORDER BY ?athleteLabel
+```
+

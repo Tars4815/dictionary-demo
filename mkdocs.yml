@@ -1,5 +1,5 @@
 site_name: QGIS Learning Material
-site_url: https://tars4815.github.io/qgis-learning-material/
+site_url: https://tars4815.github.io/dictionary-demo/
 
 # Configuration
 theme:
@@ -33,7 +33,7 @@ extra:
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
 
-repo_url: https://github.com/Tars4815/qgis-learning-material
+repo_url: https://github.com/Tars4815/dictionary-demo
 
 plugins:
   - search

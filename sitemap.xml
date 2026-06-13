@@ -22,11 +22,39 @@
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/schema_er/"/>
     </url>
     <url>
+        <loc>Nonetables/building/</loc>
+        <lastmod>2026-06-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/building/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/building/"/>
+    </url>
+    <url>
+        <loc>Nonetables/enterprise/</loc>
+        <lastmod>2026-06-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/enterprise/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/enterprise/"/>
+    </url>
+    <url>
+        <loc>Nonetables/farm/</loc>
+        <lastmod>2026-06-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/farm/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/farm/"/>
+    </url>
+    <url>
         <loc>Nonetables/locations/</loc>
         <lastmod>2026-06-13</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/locations/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/locations/"/>
+    </url>
+    <url>
+        <loc>Nonetables/network_system/</loc>
+        <lastmod>2026-06-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/network_system/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/network_system/"/>
     </url>
     <url>
         <loc>Nonetables/roles/</loc>
@@ -41,13 +69,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/users/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/users/"/>
-    </url>
-    <url>
-        <loc>Noneworkshop/intro-workshop/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneworkshop/intro-workshop/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="Noneit/workshop/intro-workshop/"/>
     </url>
     <url>
         <loc>Noneit/</loc>
@@ -71,11 +92,39 @@
         <xhtml:link rel="alternate" hreflang="en" href="Noneschema_er/"/>
     </url>
     <url>
+        <loc>Noneit/tables/building/</loc>
+        <lastmod>2026-06-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/building/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/building/"/>
+    </url>
+    <url>
+        <loc>Noneit/tables/enterprise/</loc>
+        <lastmod>2026-06-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/enterprise/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/enterprise/"/>
+    </url>
+    <url>
+        <loc>Noneit/tables/farm/</loc>
+        <lastmod>2026-06-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/farm/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/farm/"/>
+    </url>
+    <url>
         <loc>Noneit/tables/locations/</loc>
         <lastmod>2026-06-13</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/locations/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/locations/"/>
+    </url>
+    <url>
+        <loc>Noneit/tables/network_system/</loc>
+        <lastmod>2026-06-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/network_system/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/network_system/"/>
     </url>
     <url>
         <loc>Noneit/tables/roles/</loc>
@@ -90,12 +139,5 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/users/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/users/"/>
-    </url>
-    <url>
-        <loc>Noneit/workshop/intro-workshop/</loc>
-        <lastmod>2026-06-13</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="it" href="Noneit/workshop/intro-workshop/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneworkshop/intro-workshop/"/>
     </url>
 </urlset>

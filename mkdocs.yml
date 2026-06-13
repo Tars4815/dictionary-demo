@@ -36,6 +36,10 @@ nav:
       - User groups: tables/users.md
       - Roles: tables/roles.md
     - Entities and relationships:
-      - Locations: tables/locations.md
+      - Enterprise and subclasses:
+        - Enterprise: tables/enterprise.md
+        - Building: tables/building.md
+        - Farm: tables/farm.md
+        - Network Systems: tables/network_system.md
   - Contribution Guidelines: guidelines.md
 

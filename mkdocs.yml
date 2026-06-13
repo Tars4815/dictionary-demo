@@ -1,84 +1,41 @@
-site_name: QGIS Learning Material
-site_url: https://tars4815.github.io/dictionary-demo/
-
-# Configuration
+site_name: Project Data Dictionary
 theme:
   name: material
-  palette:
-    primary: green
-  font:
-    text: Open Sans
   language: en
   features:
-    - navigation.path
-    - navigation.footer
-    - navigation.tabs
-    - toc.integrate
-
-
-# Customization
-extra:
-  social:
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/fede_gaspari
-    - icon: fontawesome/brands/github
-      link: https://github.com/Tars4815
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/federicagaspari/
-  consent:
-    title: Cookie consent
-    description: >-
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our documentation better.
-
-repo_url: https://github.com/Tars4815/dictionary-demo
+    - navigation.tabs # Crea tab in alto per le sezioni principali
+    - navigation.sections # Raggruppa le voci nel menu laterale
+    - search.suggest # Suggerimenti durante la ricerca
+    - content.code.copy # Permette di copiare query di esempio
 
 plugins:
   - search
-  - tags
-  - git-authors
   - i18n:
+      docs_structure: suffix # Indica che userai file come nome.en.md
       languages:
-        - locale: en 
-          name: English
-          build: true
-          default: true
         - locale: it
           name: Italiano
           build: true
-          default: false
-      nav_translations:
-        it:
-          Home: Home
-          Courses: Corsi
+        - locale: en
+          default: true
+          name: English
+          build: true
 
 markdown_extensions:
-  - attr_list
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
-# Page tree (language-neutral, i18n will pull from docs/en and docs/it)
 nav:
   - Home: index.md
-  - Courses:
-      - Environmental Engineering: 
-          - sit/sit-about.md
-          - sit/sit-intro.md
-          - sit/sit-qgis00.md
-          - sit/sit-qgis01.md
-      - Architecture:
-          - arch/arch-pc-about.md
-          - arch/arch-pc-intro.md
-      - Urban Planning:
-          - urb/about.md
-          - urb/intro.md
-          - urb/urb01.md
-          - urb/urb02.md
-          - urb/urb03.md
-          - urb/urb04.md
-          - urb/urb05.md
-  - Workshop:
-      - workshop/intro-workshop.md
+  - Overview of the schema (ER): schema_er.md
+  - Data Dictionary:
+    - Users and access control:
+      - User groups: tables/users.md
+      - Roles: tables/roles.md
+    - Entities and relationships:
+      - Locations: tables/locations.md
+  - Contribution Guidelines: guidelines.md
+

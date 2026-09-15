@@ -43,5 +43,10 @@ nav:
         - Network Systems: tables/network_system.md
       - Components and subclasses:
         - Component: tables/component.md
+        - Added block: tables/added_block.md
+        - Artistic good: tables/artistic_good.md
+        - Building functionality: tables/building_functionality.md
+        - Building component: tables/building_component.md
+        - Electrical component: tables/electrical_network_component.md
   - Contribution Guidelines: guidelines.md
 

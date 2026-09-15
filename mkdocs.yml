@@ -57,5 +57,10 @@ nav:
         - Fixed asset: tables/fixed_asset.md
       - Survey: tables/survey.md
       - Event: tables/event.md
+      - Damage and subclasses: 
+        - Damage: tables/damage.md
+        - Whole structure damage: tables/damage_whole_structure.md
+        - Vehicle damage: tables/damage_vehicles.md
+        - Damages to people: tables/damage_people.md
   - Contribution Guidelines: guidelines.md
 

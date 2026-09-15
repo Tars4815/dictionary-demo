@@ -48,6 +48,13 @@ nav:
         - Building functionality: tables/building_functionality.md
         - Building component: tables/building_component.md
         - Electrical component: tables/electrical_network_component.md
+        - Livestock: tables/livestock.md
+        - Network service: tables/network_service.md
+        - Provision: tables/provision.md
+        - Staff: tables/staff.md
+        - Transport network component: tables/transport_network_component.md
+        - Telecommunication network component: tables/tlc_network_component.md
+        - Fixed asset: tables/fixed_asset.md
       - Survey: tables/survey.md
       - Event: tables/event.md
   - Contribution Guidelines: guidelines.md

@@ -38,5 +38,8 @@ Because `component` is one of the core entities of the schema, it has extensive 
     * [`network service`](network_service.md)
     * [`provision`](provision.md)
     * [`staff`](staff.md)
+    * [`tlc network component`](tlc_network_component.md)
+    * [`transport_network_component`](transport_network_component.md)
+    * [`fixed_asset`](fixed_asset.md)
 * **Belongs to:** [`enterprise`](enterprise.md) (A component is linked to one enterprise)
 * **Has many:** `damage` (A component can be affected by multiple damage over time)

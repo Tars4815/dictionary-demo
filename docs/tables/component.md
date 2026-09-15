@@ -23,3 +23,20 @@
 | `coordinates_inferred` | BOOLEAN | [...] | [...] | - | No | - |
 | `cultural_heritage` | BOOLEAN | [...] | [...] | - | No | - |
 | `component_kind` | BOOLEAN | [...] | [...] | - | No | - |
+
+## Relationships
+
+Because `component` is one of the core entities of the schema, it has extensive relationships:
+
+* **Has Sub-types (Inheritance):** The following tables inherit from `component` and share its `id`:
+    * [`added block`](added_block.md)
+    * [`artistic good`](artistic_good.md)
+    * [`building component`](building_component.md)
+    * [`building functionality`](building_functionality.md)
+    * [`electrical network component`](electrical_network_component.md)
+    * [`livestock`](livestock.md)
+    * [`network service`](network_service.md)
+    * [`provision`](provision.md)
+    * [`staff`](staff.md)
+* **Belongs to:** [`enterprise`](enterprise.md) (A component is linked to one enterprise)
+* **Has many:** `damage` (A component can be affected by multiple damage over time)

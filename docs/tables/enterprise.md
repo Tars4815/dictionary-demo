@@ -25,7 +25,7 @@ Because `enterprise` is the central hub of the schema, it has extensive relation
     * [`network_system`](network_system.md)
 * **Belongs to:** `owner` (An enterprise is owned by an owner)
 * **Has many:** [`component`](component.md) (An enterprise is composed of multiple sub-components like machinery, crops, or electrical networks)
-* **Has many:** `survey` (An enterprise can undergo multiple damage or assessment surveys over time)
+* **Has many:** [`survey`](survey.md) (An enterprise can undergo multiple damage or assessment surveys over time)
 
 ## Example Query
 

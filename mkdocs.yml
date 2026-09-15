@@ -48,5 +48,7 @@ nav:
         - Building functionality: tables/building_functionality.md
         - Building component: tables/building_component.md
         - Electrical component: tables/electrical_network_component.md
+      - Survey: tables/survey.md
+      - Event: tables/event.md
   - Contribution Guidelines: guidelines.md
 

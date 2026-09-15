@@ -78,6 +78,13 @@
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/enterprise/"/>
     </url>
     <url>
+        <loc>Nonetables/event/</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/event/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/event/"/>
+    </url>
+    <url>
         <loc>Nonetables/farm/</loc>
         <lastmod>2026-09-15</lastmod>
         <changefreq>daily</changefreq>
@@ -104,6 +111,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/roles/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/roles/"/>
+    </url>
+    <url>
+        <loc>Nonetables/survey/</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/survey/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/survey/"/>
     </url>
     <url>
         <loc>Nonetables/users/</loc>
@@ -190,6 +204,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/enterprise/"/>
     </url>
     <url>
+        <loc>Noneit/tables/event/</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/event/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/event/"/>
+    </url>
+    <url>
         <loc>Noneit/tables/farm/</loc>
         <lastmod>2026-09-15</lastmod>
         <changefreq>daily</changefreq>
@@ -216,6 +237,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/roles/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/roles/"/>
+    </url>
+    <url>
+        <loc>Noneit/tables/survey/</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/survey/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/survey/"/>
     </url>
     <url>
         <loc>Noneit/tables/users/</loc>

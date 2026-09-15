@@ -41,5 +41,7 @@ nav:
         - Building: tables/building.md
         - Farm: tables/farm.md
         - Network Systems: tables/network_system.md
+      - Components and subclasses:
+        - Component: tables/component.md
   - Contribution Guidelines: guidelines.md
 

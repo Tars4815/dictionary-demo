@@ -962,6 +962,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Building component
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -978,6 +996,36 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#column-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Column Structure
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1082,6 +1130,25 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#column-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Column Structure
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1098,7 +1165,33 @@
 
 
 <h1 id="table-building_component">Table: <code>building_component</code></h1>
-<p><strong>Description (EN):</strong> [t.b.d.]</p>
+<p><strong>Description (EN):</strong> This table represents building components. In the database's inheritance architecture, it acts as a direct sub-type of the <a href="../component/"><code>component</code></a> table. It does not store redundant descriptive columns; instead, it uses a shared primary key to inherit all high-level attributes (such as name, location, management type, and geometry) from its parent <code>component</code> record.</p>
+<h2 id="column-structure">Column Structure</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Column</th>
+<th style="text-align: left;">Data type</th>
+<th style="text-align: left;">Definition</th>
+<th style="text-align: left;">Example value</th>
+<th style="text-align: left;">Constraint?</th>
+<th style="text-align: left;">Geometry?</th>
+<th style="text-align: left;">Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>id</code></td>
+<td style="text-align: left;">BIGINT</td>
+<td style="text-align: left;">Unique identifier for the building component</td>
+<td style="text-align: left;"><code>42</code></td>
+<td style="text-align: left;">PK, FK</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">Primary key that also acts as a Foreign Key referencing <code>component.id</code></td>
+</tr>
+</tbody>
+</table>
+<p>[...]</p>
 
 
 

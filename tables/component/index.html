@@ -911,6 +911,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#relationships" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relationships
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1001,6 +1012,17 @@
     <span class="md-ellipsis">
       
         Column Structure
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#relationships" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relationships
       
     </span>
   </a>
@@ -1195,6 +1217,24 @@
 </tr>
 </tbody>
 </table>
+<h2 id="relationships">Relationships</h2>
+<p>Because <code>component</code> is one of the core entities of the schema, it has extensive relationships:</p>
+<ul>
+<li><strong>Has Sub-types (Inheritance):</strong> The following tables inherit from <code>component</code> and share its <code>id</code>:<ul>
+<li><a href="added_block.md"><code>added block</code></a></li>
+<li><a href="artistic_good.md"><code>artistic good</code></a></li>
+<li><a href="building_component.md"><code>building component</code></a></li>
+<li><a href="building_functionality.md"><code>building functionality</code></a></li>
+<li><a href="electrical_network_component.md"><code>electrical network component</code></a></li>
+<li><a href="livestock.md"><code>livestock</code></a></li>
+<li><a href="network_service.md"><code>network service</code></a></li>
+<li><a href="provision.md"><code>provision</code></a></li>
+<li><a href="staff.md"><code>staff</code></a></li>
+</ul>
+</li>
+<li><strong>Belongs to:</strong> <a href="../enterprise/"><code>enterprise</code></a> (A component is linked to one enterprise)</li>
+<li><strong>Has many:</strong> <code>damage</code> (A component can be affected by multiple damage over time)</li>
+</ul>
 
 
 

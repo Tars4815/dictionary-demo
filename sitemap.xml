@@ -64,6 +64,34 @@
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/component/"/>
     </url>
     <url>
+        <loc>Nonetables/damage/</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage/"/>
+    </url>
+    <url>
+        <loc>Nonetables/damage_people/</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_people/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_people/"/>
+    </url>
+    <url>
+        <loc>Nonetables/damage_vehicles/</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_vehicles/"/>
+    </url>
+    <url>
+        <loc>Nonetables/damage_whole_structure/</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_whole_structure/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_whole_structure/"/>
+    </url>
+    <url>
         <loc>Nonetables/electrical_network_component/</loc>
         <lastmod>2026-09-15</lastmod>
         <changefreq>daily</changefreq>
@@ -237,6 +265,34 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/component/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/component/"/>
+    </url>
+    <url>
+        <loc>Noneit/tables/damage/</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage/"/>
+    </url>
+    <url>
+        <loc>Noneit/tables/damage_people/</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_people/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_people/"/>
+    </url>
+    <url>
+        <loc>Noneit/tables/damage_vehicles/</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_vehicles/"/>
+    </url>
+    <url>
+        <loc>Noneit/tables/damage_whole_structure/</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_whole_structure/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_whole_structure/"/>
     </url>
     <url>
         <loc>Noneit/tables/electrical_network_component/</loc>

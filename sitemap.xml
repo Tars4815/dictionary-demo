@@ -22,6 +22,20 @@
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/schema_er/"/>
     </url>
     <url>
+        <loc>Nonetables/added_block/</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/added_block/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/added_block/"/>
+    </url>
+    <url>
+        <loc>Nonetables/artistic_good/</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/artistic_good/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/artistic_good/"/>
+    </url>
+    <url>
         <loc>Nonetables/building/</loc>
         <lastmod>2026-09-15</lastmod>
         <changefreq>daily</changefreq>
@@ -29,11 +43,32 @@
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/building/"/>
     </url>
     <url>
+        <loc>Nonetables/building_component/</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/building_component/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/building_component/"/>
+    </url>
+    <url>
+        <loc>Nonetables/building_functionality/</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/building_functionality/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/building_functionality/"/>
+    </url>
+    <url>
         <loc>Nonetables/component/</loc>
         <lastmod>2026-09-15</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/component/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/component/"/>
+    </url>
+    <url>
+        <loc>Nonetables/electrical_network_component/</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/electrical_network_component/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/electrical_network_component/"/>
     </url>
     <url>
         <loc>Nonetables/enterprise/</loc>
@@ -99,6 +134,20 @@
         <xhtml:link rel="alternate" hreflang="en" href="Noneschema_er/"/>
     </url>
     <url>
+        <loc>Noneit/tables/added_block/</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/added_block/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/added_block/"/>
+    </url>
+    <url>
+        <loc>Noneit/tables/artistic_good/</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/artistic_good/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/artistic_good/"/>
+    </url>
+    <url>
         <loc>Noneit/tables/building/</loc>
         <lastmod>2026-09-15</lastmod>
         <changefreq>daily</changefreq>
@@ -106,11 +155,32 @@
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/building/"/>
     </url>
     <url>
+        <loc>Noneit/tables/building_component/</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/building_component/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/building_component/"/>
+    </url>
+    <url>
+        <loc>Noneit/tables/building_functionality/</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/building_functionality/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/building_functionality/"/>
+    </url>
+    <url>
         <loc>Noneit/tables/component/</loc>
         <lastmod>2026-09-15</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/component/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/component/"/>
+    </url>
+    <url>
+        <loc>Noneit/tables/electrical_network_component/</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/electrical_network_component/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/electrical_network_component/"/>
     </url>
     <url>
         <loc>Noneit/tables/enterprise/</loc>

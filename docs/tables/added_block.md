@@ -28,7 +28,7 @@
 
 ## Example Query
 
-Retrieve a list of all added blocks, including their names, towns, and spatial coordinates, by joining the table with its parent `enterprise` entity:
+Retrieve a list of all added blocks, including their names, towns, and spatial coordinates, by joining the table with its parent `component` entity:
 
 ```sql
 SELECT 

@@ -15,4 +15,29 @@
 | `subtype` | VARCHAR | [...] | - | - | No | - |
 | `purpose` | VARCHAR | [...] | - | - | No | - |
 
-[...]
+## Relationships
+
+* **Inherits from (Sub-type of):** [`component`](component.md). The `livestock` table is a specialized extension of the `component` table.
+* **Belongs to:** [`enterprise`](enterprise.md) (A component sub-type is linked to one enterprise)
+* **Has many:** `damage` (A component sub-type can be affected by multiple damage over time)
+
+!!! tip "Where is the rest of the data?"
+    To find the name, geographical location (`geometry`, `town`, `country`), or ownership details of a livestock, you must join this table with the `component` record that shares the exact same `id`.
+
+## Example Query
+
+Retrieve a list of all livestocks, including their names, towns, and spatial coordinates, by joining the table with its parent `component` entity:
+
+```sql
+SELECT 
+    l.id, 
+    c.name, 
+    c.town, 
+    ST_AsText(c.geometry) as coordinates 
+FROM 
+    livestock l
+JOIN 
+    component c ON l.id = c.id
+WHERE 
+    c.component_kind  = 'LIVESTOCK';
+```

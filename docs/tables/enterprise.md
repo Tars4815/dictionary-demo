@@ -7,7 +7,7 @@
 | Column | Data type | Definition | Example value | Constraint? | Geometry? | Comments |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | `id` | BIGINT | Unique identifier for the enterprise | `3` | PK | No | Acts as the universal ID across all sub-type tables |
-| `type` | VARCHAR(255) | Discriminator column defining the specific type of enterprise | `BUILDING` | NOT NULL | No | Expected values: 'BUILDING', 'FARM', 'NETWORK_SYSTEM' |
+| `type` | VARCHAR(255) | Discriminator column defining the specific type of enterprise | `BUILDING` | NOT NULL | No | Expected values: 'BUILDING', 'FARM', 'NETWORK_SYSTEM', 'TRANSPORT' |
 | `name` | VARCHAR(255) | Official name or denomination of the enterprise | `Main Headquarters` | | No | |
 | `management_type` | VARCHAR(255) | Type of management or business administration | `PUBLIC` | | No | e.g., 'PUBLIC', 'PRIVATE', 'MIXED' |
 | `town` | VARCHAR(255) | Municipality where the enterprise is located | `Rome` | | No | |
@@ -21,9 +21,10 @@ Because `enterprise` is the central hub of the schema, it has extensive relation
 
 * **Has Sub-types (Inheritance):** The following tables inherit from `enterprise` and share its `id`:
     * [`building`](building.md)
+    * [`business`](business.md)
     * [`farm`](farm.md)
     * [`network_system`](network_system.md)
-* **Belongs to:** `owner` (An enterprise is owned by an owner)
+* **Belongs to:** [`owner`](owner.md) (An enterprise is owned by an owner)
 * **Has many:** [`component`](component.md) (An enterprise is composed of multiple sub-components like machinery, crops, or electrical networks)
 * **Has many:** [`survey`](survey.md) (An enterprise can undergo multiple damage or assessment surveys over time)
 

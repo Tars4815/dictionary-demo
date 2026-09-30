@@ -10,8 +10,8 @@
 
 ## Relationships
 
-* **Inherits from (Sub-type of):** [`network_system`](network_system.md). The `electrical_system` table is a specialized extension of the `network_system` table.
-* **Contains:** While not linked directly via an `electrical_system_id`, an electrical system owns infrastructural assets through the `enterprise_id` column in the `component` table. These components often include specialized sub-types such as:
+* **Inherits from (Sub-type of):** [`network_system`](network_system.md). The `tlc_system` table is a specialized extension of the `network_system` table.
+* **Contains:** While not linked directly via a `tlc_system_id`, a telecommunication system owns infrastructural assets through the `enterprise_id` column in the `component` table. These components often include specialized sub-types such as:
     * `tlc_network_component`
 
 !!! tip "Where is the rest of the data?"

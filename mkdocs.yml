@@ -40,7 +40,11 @@ nav:
         - Enterprise: tables/enterprise.md
         - Building: tables/building.md
         - Farm: tables/farm.md
-        - Network Systems: tables/network_system.md
+        - Network Systems and sub-types: 
+          - Network Systems: tables/network_system.md
+          - Electrical network: tables/electrical_system.md
+          - Transport network: tables/transport_network.md
+          - Telecommunication network: tables/tlc_system.md
       - Components and subclasses:
         - Component: tables/component.md
         - Added block: tables/added_block.md

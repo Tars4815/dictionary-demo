@@ -11,6 +11,10 @@
 ## Relationships
 
 * **Inherits from (Sub-type of):** [`enterprise`](enterprise.md). The `network_system` table is a specialized extension of the `enterprise` table.
+* **Has Sub-types (Inheritance):** The following tables inherit from `enterprise` and share its `id`:
+    * [`electrical_system`](electrical_system.md)
+    * [`tlc_system`](tlc_system.md)
+    * [`transport_system`](transport_system.md)
 * **Contains:** While not linked directly via a `network_system_id`, a network system owns infrastructural assets through the `enterprise_id` column in the `component` table. These components often include specialized sub-types such as:
     * `transport_network_component`
     * `electrical_network_component`

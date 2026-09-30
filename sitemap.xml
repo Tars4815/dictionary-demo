@@ -71,6 +71,13 @@
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/business/"/>
     </url>
     <url>
+        <loc>Nonetables/business_operations/</loc>
+        <lastmod>2026-09-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/business_operations/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/business_operations/"/>
+    </url>
+    <url>
         <loc>Nonetables/component/</loc>
         <lastmod>2026-09-30</lastmod>
         <changefreq>daily</changefreq>
@@ -321,6 +328,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/business/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/business/"/>
+    </url>
+    <url>
+        <loc>Noneit/tables/business_operations/</loc>
+        <lastmod>2026-09-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/business_operations/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/business_operations/"/>
     </url>
     <url>
         <loc>Noneit/tables/component/</loc>

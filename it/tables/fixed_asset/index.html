@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../tlc_network_component/">
+        <link rel="prev" href="../electrical_network_component/">
       
       
-        <link rel="next" href="../survey/">
+        <link rel="next" href="../livestock/">
       
       
         
@@ -1209,6 +1209,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../business_operations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Business operations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../electrical_network_component/" class="md-nav__link">
         
   
@@ -1225,6 +1253,114 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fixed asset
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fixed asset
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#column-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Column Structure
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#relationships" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relationships
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-query" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Query
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1393,92 +1529,6 @@
   
 
       </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Fixed asset
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Fixed asset
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Indice">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Indice
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#column-structure" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Column Structure
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1799,6 +1849,28 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#relationships" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relationships
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-query" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Query
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1843,7 +1915,28 @@
 </tr>
 </tbody>
 </table>
-<p>[...]</p>
+<h2 id="relationships">Relationships</h2>
+<ul>
+<li><strong>Inherits from (Sub-type of):</strong> <a href="../component/"><code>component</code></a>. The <code>fixed_asset</code> table is a specialized extension of the <code>component</code> table.</li>
+<li><strong>Belongs to:</strong> <a href="../enterprise/"><code>enterprise</code></a> (A component sub-type is linked to one enterprise)</li>
+<li><strong>Has many:</strong> <code>damage</code> (A component sub-type can be affected by multiple damage over time)</li>
+</ul>
+<p>!!! tip "Where is the rest of the data?"
+    To find the name, geographical location (<code>geometry</code>, <code>town</code>, <code>country</code>), or ownership details of a fixed_asset, you must join this table with the <code>component</code> record that shares the exact same <code>id</code>.</p>
+<h2 id="example-query">Example Query</h2>
+<p>Retrieve a list of all fixed asset, including their names, towns, and spatial coordinates, by joining the table with its parent <code>enterprise</code> entity:</p>
+<div class="highlight"><pre><span></span><code><span class="k">SELECT</span><span class="w"> </span>
+<span class="w">    </span><span class="n">fa</span><span class="p">.</span><span class="n">id</span><span class="p">,</span><span class="w"> </span>
+<span class="w">    </span><span class="k">c</span><span class="p">.</span><span class="n">name</span><span class="p">,</span><span class="w"> </span>
+<span class="w">    </span><span class="k">c</span><span class="p">.</span><span class="n">town</span><span class="p">,</span><span class="w"> </span>
+<span class="w">    </span><span class="n">ST_AsText</span><span class="p">(</span><span class="k">c</span><span class="p">.</span><span class="n">geometry</span><span class="p">)</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="n">coordinates</span><span class="w"> </span>
+<span class="k">FROM</span><span class="w"> </span>
+<span class="w">    </span><span class="n">fixed_asset</span>
+<span class="k">JOIN</span><span class="w"> </span>
+<span class="w">    </span><span class="n">component</span><span class="w"> </span><span class="k">c</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="n">fa</span><span class="p">.</span><span class="n">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">c</span><span class="p">.</span><span class="n">id</span>
+<span class="k">WHERE</span><span class="w"> </span>
+<span class="w">    </span><span class="k">c</span><span class="p">.</span><span class="n">component_kind</span><span class="w">  </span><span class="o">=</span><span class="w"> </span><span class="s1">'FIXED_ASSET'</span><span class="p">;</span>
+</code></pre></div>
 
 
 

@@ -12,7 +12,7 @@
         <link rel="prev" href="../farm/">
       
       
-        <link rel="next" href="../component/">
+        <link rel="next" href="../electrical_system/">
       
       
         
@@ -754,6 +754,60 @@
   
   
   
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_1_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_1_4" id="__nav_3_2_1_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Network Systems and sub-types
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_3_2_1_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2_1_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Network Systems and sub-types
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
     <li class="md-nav__item md-nav__item--active">
       
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
@@ -848,6 +902,98 @@
     </ul>
   
 </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../electrical_system/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Electrical network
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../transport_network.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Transport network
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tlc_system/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Telecommunication network
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
       
     </li>
   
@@ -1662,6 +1808,12 @@
 <h2 id="relationships">Relationships</h2>
 <ul>
 <li><strong>Inherits from (Sub-type of):</strong> <a href="../enterprise/"><code>enterprise</code></a>. The <code>network_system</code> table is a specialized extension of the <code>enterprise</code> table.</li>
+<li><strong>Has Sub-types (Inheritance):</strong> The following tables inherit from <code>enterprise</code> and share its <code>id</code>:<ul>
+<li><a href="../electrical_system/"><code>electrical_system</code></a></li>
+<li><a href="../tlc_system/"><code>tlc_system</code></a></li>
+<li><a href="transport_system.md"><code>transport_system</code></a></li>
+</ul>
+</li>
 <li><strong>Contains:</strong> While not linked directly via a <code>network_system_id</code>, a network system owns infrastructural assets through the <code>enterprise_id</code> column in the <code>component</code> table. These components often include specialized sub-types such as:<ul>
 <li><code>transport_network_component</code></li>
 <li><code>electrical_network_component</code></li>

@@ -9,16 +9,16 @@
       
       
       
-        <link rel="prev" href="../building_functionality/">
+        <link rel="prev" href="../tlc_system/">
       
       
-        <link rel="next" href="../electrical_network_component/">
+        <link rel="next" href="../component/">
       
       
         
           <link rel="alternate" href="./" hreflang="it">
         
-          <link rel="alternate" href="../../../tables/building_component/" hreflang="en">
+          <link rel="alternate" href="../../../tables/owner/" hreflang="en">
         
       
       
@@ -27,7 +27,7 @@
     
     
       
-        <title>Building component - Project Data Dictionary</title>
+        <title>Owner - Project Data Dictionary</title>
       
     
     
@@ -67,11 +67,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#table-building_component" class="md-skip">
-          Vai al contenuto
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -102,7 +97,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Building component
+              Owner
             
           </span>
         </div>
@@ -129,7 +124,7 @@
           </li>
         
           <li class="md-select__item">
-            <a href="../../../tables/building_component/" hreflang="en" class="md-select__link">
+            <a href="../../../tables/owner/" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
@@ -956,10 +951,17 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../owner/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -975,6 +977,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -984,8 +987,6 @@
                 
   
   
-    
-  
   
   
     
@@ -998,11 +999,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_3" >
         
           
           <label class="md-nav__link" for="__nav_3_2_3" id="__nav_3_2_3_label" tabindex="0">
@@ -1023,7 +1024,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_2_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1150,37 +1151,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Building component
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../building_component/" class="md-nav__link">
         
   
   
@@ -1196,37 +1170,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Indice">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Indice
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#column-structure" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Column Structure
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1751,27 +1694,6 @@
   
   
   
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Indice
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#column-structure" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Column Structure
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -1788,34 +1710,9 @@
 
 
 
-<h1 id="table-building_component">Table: <code>building_component</code></h1>
-<p><strong>Description (EN):</strong> This table represents building components. In the database's inheritance architecture, it acts as a direct sub-type of the <a href="../component/"><code>component</code></a> table. It does not store redundant descriptive columns; instead, it uses a shared primary key to inherit all high-level attributes (such as name, location, management type, and geometry) from its parent <code>component</code> record.</p>
-<h2 id="column-structure">Column Structure</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Column</th>
-<th style="text-align: left;">Data type</th>
-<th style="text-align: left;">Definition</th>
-<th style="text-align: left;">Example value</th>
-<th style="text-align: left;">Constraint?</th>
-<th style="text-align: left;">Geometry?</th>
-<th style="text-align: left;">Comments</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><code>id</code></td>
-<td style="text-align: left;">BIGINT</td>
-<td style="text-align: left;">Unique identifier for the building component</td>
-<td style="text-align: left;"><code>42</code></td>
-<td style="text-align: left;">PK, FK</td>
-<td style="text-align: left;">No</td>
-<td style="text-align: left;">Primary key that also acts as a Foreign Key referencing <code>component.id</code></td>
-</tr>
-</tbody>
-</table>
-<p>[...]</p>
+  <h1>Owner</h1>
+
+
 
 
 

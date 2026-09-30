@@ -57,6 +57,13 @@
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/building_functionality/"/>
     </url>
     <url>
+        <loc>Nonetables/business/</loc>
+        <lastmod>2026-09-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/business/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/business/"/>
+    </url>
+    <url>
         <loc>Nonetables/component/</loc>
         <lastmod>2026-09-30</lastmod>
         <changefreq>daily</changefreq>
@@ -162,6 +169,13 @@
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/network_system/"/>
     </url>
     <url>
+        <loc>Nonetables/owner/</loc>
+        <lastmod>2026-09-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/owner/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/owner/"/>
+    </url>
+    <url>
         <loc>Nonetables/provision/</loc>
         <lastmod>2026-09-30</lastmod>
         <changefreq>daily</changefreq>
@@ -209,6 +223,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/transport_network_component/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/transport_network_component/"/>
+    </url>
+    <url>
+        <loc>Nonetables/transport_system/</loc>
+        <lastmod>2026-09-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/transport_system/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/transport_system/"/>
     </url>
     <url>
         <loc>Nonetables/users/</loc>
@@ -272,6 +293,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/building_functionality/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/building_functionality/"/>
+    </url>
+    <url>
+        <loc>Noneit/tables/business/</loc>
+        <lastmod>2026-09-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/business/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/business/"/>
     </url>
     <url>
         <loc>Noneit/tables/component/</loc>
@@ -379,6 +407,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/network_system/"/>
     </url>
     <url>
+        <loc>Noneit/tables/owner/</loc>
+        <lastmod>2026-09-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/owner/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/owner/"/>
+    </url>
+    <url>
         <loc>Noneit/tables/provision/</loc>
         <lastmod>2026-09-30</lastmod>
         <changefreq>daily</changefreq>
@@ -426,6 +461,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/transport_network_component/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/transport_network_component/"/>
+    </url>
+    <url>
+        <loc>Noneit/tables/transport_system/</loc>
+        <lastmod>2026-09-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/transport_system/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/transport_system/"/>
     </url>
     <url>
         <loc>Noneit/tables/users/</loc>

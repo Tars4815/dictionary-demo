@@ -67,6 +67,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#table-owner" class="md-skip">
+          Vai al contenuto
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -960,6 +965,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Owner
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -977,6 +1002,58 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#column-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Column Structure
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#relationships" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relationships
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-query" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Query
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1694,6 +1771,49 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#column-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Column Structure
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#relationships" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relationships
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-query" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Query
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1710,9 +1830,81 @@
 
 
 
-  <h1>Owner</h1>
-
-
+<h1 id="table-owner">Table: <code>owner</code></h1>
+<p><strong>Description (EN):</strong> This entity stores the universal, high-level attributes—such as identification and contacts for owner records.</p>
+<h2 id="column-structure">Column Structure</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Column</th>
+<th style="text-align: left;">Data type</th>
+<th style="text-align: left;">Definition</th>
+<th style="text-align: left;">Example value</th>
+<th style="text-align: left;">Constraint?</th>
+<th style="text-align: left;">Geometry?</th>
+<th style="text-align: left;">Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>id</code></td>
+<td style="text-align: left;">BIGINT</td>
+<td style="text-align: left;">Unique identifier for the owner</td>
+<td style="text-align: left;"><code>3</code></td>
+<td style="text-align: left;">PK</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>email</code></td>
+<td style="text-align: left;">VARCHAR</td>
+<td style="text-align: left;">Email address of the owner</td>
+<td style="text-align: left;"><code>example@mail.com</code></td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>fiscal_code</code></td>
+<td style="text-align: left;">VARCHAR</td>
+<td style="text-align: left;">Fiscal code of the owner</td>
+<td style="text-align: left;"><code>AB0123CDEF</code></td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">Character limit and configuration can vary from country to country</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>full_name</code></td>
+<td style="text-align: left;">VARCHAR</td>
+<td style="text-align: left;">Full name of the owner</td>
+<td style="text-align: left;"><code>John Doe</code></td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>phone</code></td>
+<td style="text-align: left;">VARCHAR</td>
+<td style="text-align: left;">Phone number and international prefix of the owner</td>
+<td style="text-align: left;"><code>+390123456789</code></td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">-</td>
+</tr>
+</tbody>
+</table>
+<h2 id="relationships">Relationships</h2>
+<ul>
+<li><strong>Owns:</strong> <a href="../enterprise/"><code>enterprise</code></a> (An owner owns an enterprirse). This many-to-many relationship is mediated with the <a href="../enterprise_owner/"><code>enterprise_owner</code></a> bridge table.</li>
+</ul>
+<h2 id="example-query">Example Query</h2>
+<p>Retrieve a list of all owner, displaying their name and their specific contacts:</p>
+<div class="highlight"><pre><span></span><code><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span>
+<span class="k">FROM</span><span class="w"> </span>
+<span class="w">    </span><span class="k">owner</span><span class="w"> </span><span class="n">o</span>
+<span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span>
+<span class="w">    </span><span class="n">o</span><span class="p">.</span><span class="n">full_name</span><span class="w"> </span><span class="k">ASC</span><span class="p">;</span>
+</code></pre></div>
 
 
 

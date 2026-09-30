@@ -1125,6 +1125,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../agriculture_product/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Agriculture product
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../building_functionality/" class="md-nav__link">
         
   
@@ -1217,6 +1245,28 @@
     <span class="md-ellipsis">
       
         Column Structure
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#relationships" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relationships
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-query" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Query
       
     </span>
   </a>
@@ -1771,6 +1821,28 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#relationships" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relationships
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-query" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Query
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1813,9 +1885,246 @@
 <td style="text-align: left;">No</td>
 <td style="text-align: left;">Primary key that also acts as a Foreign Key referencing <code>component.id</code></td>
 </tr>
+<tr>
+<td style="text-align: left;"><code>principal</code></td>
+<td style="text-align: left;">BOOLEAN</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;"><code>true</code></td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">[...]</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>subtype</code></td>
+<td style="text-align: left;">VARCHAR</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">[...]</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>public_service_code</code></td>
+<td style="text-align: left;">VARCHAR</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">[...]</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>heritage_tier</code></td>
+<td style="text-align: left;">VARCHAR</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">[...]</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>year</code></td>
+<td style="text-align: left;">BIGINT</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">[...]</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>quality</code></td>
+<td style="text-align: left;">VARCHAR</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">[...]</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>conservation</code></td>
+<td style="text-align: left;">VARCHAR</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">[...]</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>retrofitting</code></td>
+<td style="text-align: left;">VARCHAR</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">[...]</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>regularity</code></td>
+<td style="text-align: left;">VARCHAR</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">[...]</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>inhabitants</code></td>
+<td style="text-align: left;">BIGINT</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">[...]</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>construction_cost</code></td>
+<td style="text-align: left;">BIGINT</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">[...]</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>economic_value</code></td>
+<td style="text-align: left;">BIGINT</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">[...]</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>vertical_mat</code></td>
+<td style="text-align: left;">VARCHAR</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">[...]</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>horizontal_mat</code></td>
+<td style="text-align: left;">VARCHAR</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">[...]</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>roof_mat</code></td>
+<td style="text-align: left;">VARCHAR</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">[...]</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>build_position</code></td>
+<td style="text-align: left;">VARCHAR</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">[...]</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>ground_floor</code></td>
+<td style="text-align: left;">VARCHAR</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">[...]</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>n_floors</code></td>
+<td style="text-align: left;">BIGINT</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">[...]</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>floor_heights</code></td>
+<td style="text-align: left;">BIGINT</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">[...]</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>n_under_floors</code></td>
+<td style="text-align: left;">BIGINT</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">[...]</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>floor_area</code></td>
+<td style="text-align: left;">BIGINT</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">[...]</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>usage</code></td>
+<td style="text-align: left;">VARCHAR</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">[...]</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>foundation_typology</code></td>
+<td style="text-align: left;">VARCHAR</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">[...]</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>main_use</code></td>
+<td style="text-align: left;">VARCHAR</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">[...]</td>
+</tr>
 </tbody>
 </table>
-<p>[...]</p>
+<h2 id="relationships">Relationships</h2>
+<ul>
+<li><strong>Inherits from (Sub-type of):</strong> <a href="../component/"><code>component</code></a>. The <code>building_component</code> table is a specialized extension of the <code>component</code> table.</li>
+<li><strong>Belongs to:</strong> <a href="../enterprise/"><code>enterprise</code></a> (A component sub-type is linked to one enterprise)</li>
+<li><strong>Has many:</strong> <code>damage</code> (A component sub-type can be affected by multiple damage over time)</li>
+</ul>
+<p>!!! tip "Where is the rest of the data?"
+    To find the name, geographical location (<code>geometry</code>, <code>town</code>, <code>country</code>), or ownership details of a building component, you must join this table with the <code>component</code> record that shares the exact same <code>id</code>.</p>
+<h2 id="example-query">Example Query</h2>
+<p>Retrieve a list of all building components, including their names, towns, and spatial coordinates, by joining the table with its parent <code>enterprise</code> entity:</p>
+<div class="highlight"><pre><span></span><code><span class="k">SELECT</span><span class="w"> </span>
+<span class="w">    </span><span class="n">bc</span><span class="p">.</span><span class="n">id</span><span class="p">,</span><span class="w"> </span>
+<span class="w">    </span><span class="k">c</span><span class="p">.</span><span class="n">name</span><span class="p">,</span><span class="w"> </span>
+<span class="w">    </span><span class="k">c</span><span class="p">.</span><span class="n">town</span><span class="p">,</span><span class="w"> </span>
+<span class="w">    </span><span class="n">ST_AsText</span><span class="p">(</span><span class="k">c</span><span class="p">.</span><span class="n">geometry</span><span class="p">)</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="n">coordinates</span><span class="w"> </span>
+<span class="k">FROM</span><span class="w"> </span>
+<span class="w">    </span><span class="n">building_component</span><span class="w"> </span><span class="n">bc</span>
+<span class="k">JOIN</span><span class="w"> </span>
+<span class="w">    </span><span class="n">component</span><span class="w"> </span><span class="k">c</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="n">bc</span><span class="p">.</span><span class="n">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">c</span><span class="p">.</span><span class="n">id</span>
+<span class="k">WHERE</span><span class="w"> </span>
+<span class="w">    </span><span class="k">c</span><span class="p">.</span><span class="n">component_kind</span><span class="w">  </span><span class="o">=</span><span class="w"> </span><span class="s1">'BUILDING_COMPONENT'</span><span class="p">;</span>
+</code></pre></div>
 
 
 

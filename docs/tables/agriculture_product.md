@@ -16,6 +16,9 @@
 ## Relationships
 
 * **Inherits from (Sub-type of):** [`component`](component.md). The `agriculture_product` table is a specialized extension of the `component` table.
+* **Has Sub-types (Inheritance):** The following tables inherit from `agriculture_product` and share its `id`:
+    * [`crop`](crop.md)
+    * [`stored`](stored.md)
 * **Belongs to:** [`enterprise`](enterprise.md) (A component sub-type is linked to one enterprise)
 * **Has many:** `damage` (A component sub-type can be affected by multiple damage over time)
 

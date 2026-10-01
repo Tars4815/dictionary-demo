@@ -22,18 +22,16 @@
 
 ## Example Query
 
-Retrieve a list of all added blocks, including their names, towns, and spatial coordinates, by joining the table with its parent `component` entity:
+Retrieve a list of all network services, including their names, towns, and spatial coordinates, by joining the table with its parent `component` entity:
 
 ```sql
 SELECT 
-    ab.id, 
+    ns.id, 
     c.name, 
     c.town, 
     ST_AsText(c.geometry) as coordinates 
 FROM 
-    added_block ab
+    network_service ns
 JOIN 
-    component c ON ab.id = c.id
-WHERE 
-    c.component_kind  = 'ADDED_BLOCK';
+    component c ON ns.id = c.id
 ```

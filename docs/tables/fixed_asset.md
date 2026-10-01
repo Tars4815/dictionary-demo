@@ -11,6 +11,11 @@
 ## Relationships
 
 * **Inherits from (Sub-type of):** [`component`](component.md). The `fixed_asset` table is a specialized extension of the `component` table.
+* **Has Sub-types (Inheritance):** The following tables inherit from `fixed_asset` and share its `id`:
+    * [`infrastructure`](infrastructure.md)
+    * [`land`](land.md)
+    * [`machinery`](machinery.md)
+    * [`material`](material.md)
 * **Belongs to:** [`enterprise`](enterprise.md) (A component sub-type is linked to one enterprise)
 * **Has many:** `damage` (A component sub-type can be affected by multiple damage over time)
 

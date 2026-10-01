@@ -51,14 +51,23 @@ nav:
         - Component: tables/component.md
         - Added block: tables/added_block.md
         - Artistic good: tables/artistic_good.md
-        - Agriculture product: tables/agriculture_product.md
+        - Agriculture subclasses:
+          - Agriculture product: tables/agriculture_product.md
+          - Crop: tables/crop.md
+          - Stored: tables/stored.md
         - Building functionality: tables/building_functionality.md
         - Building component: tables/building_component.md
         - Business operations: tables/business_operations.md
         - Electrical component: tables/electrical_network_component.md
-        - Fixed asset: tables/fixed_asset.md
+        - Fixed assets subclasses:
+          - Fixed asset: tables/fixed_asset.md
+          - Infrastructure: tables/infrastructure.md
+          - Land: tables/land.md
+          - Machinery: tables/machinery.md
+          - Material: tables/material.md
         - Livestock: tables/livestock.md
         - Network service: tables/network_service.md
+        - Product: tables/product.md
         - Provision: tables/provision.md
         - Staff: tables/staff.md
         - Transport network component: tables/transport_network_component.md

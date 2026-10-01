@@ -43,6 +43,13 @@
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/artistic_good/"/>
     </url>
     <url>
+        <loc>Nonetables/attachment/</loc>
+        <lastmod>2026-10-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/attachment/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/attachment/"/>
+    </url>
+    <url>
         <loc>Nonetables/building/</loc>
         <lastmod>2026-10-01</lastmod>
         <changefreq>daily</changefreq>
@@ -118,6 +125,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_whole_structure/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_whole_structure/"/>
+    </url>
+    <url>
+        <loc>Nonetables/economic_loss/</loc>
+        <lastmod>2026-10-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/economic_loss/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/economic_loss/"/>
     </url>
     <url>
         <loc>Nonetables/electrical_network_component/</loc>
@@ -351,6 +365,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/artistic_good/"/>
     </url>
     <url>
+        <loc>Noneit/tables/attachment/</loc>
+        <lastmod>2026-10-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/attachment/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/attachment/"/>
+    </url>
+    <url>
         <loc>Noneit/tables/building/</loc>
         <lastmod>2026-10-01</lastmod>
         <changefreq>daily</changefreq>
@@ -426,6 +447,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_whole_structure/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_whole_structure/"/>
+    </url>
+    <url>
+        <loc>Noneit/tables/economic_loss/</loc>
+        <lastmod>2026-10-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/economic_loss/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/economic_loss/"/>
     </url>
     <url>
         <loc>Noneit/tables/electrical_network_component/</loc>

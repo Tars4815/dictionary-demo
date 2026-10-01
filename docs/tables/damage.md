@@ -31,7 +31,21 @@
 Because `damage` is one of the core entities of the schema, it has extensive relationships:
 
 * **Has Sub-types (Inheritance):** The following tables inherit from `damage` and share its `id`:
-    * [`damage_whole_structure`](damage_whole_structure.md)
-    * [`damage_vehicles`](damage_vehicles.md)
+    * [`damage_artistic_good`](damage_artistic_good.md)
+    * [`damage_building_functionality`](damage_building_functionality.md)
+    * [`damage_building_not_structural`](damage_building_not_structural.md)
+    * [`damage_building_structural`](damage_building_structural.md)
+    * [`damage_business_operations`](damage_business_operations.md)
+    * [`damage_church_structure`](damage_church_structure.md)
+    * [`damage_goods`](damage_goods.md)
+    * [`damage_network_component`](damage_network_component.md)
+    * [`damage_network_service`](damage_network_service.md)
     * [`damage_people`](damage_people.md)
-[...]
+    * [`damage_product`](damage_product.md)
+    * [`damage_vehicles`](damage_vehicles.md)
+    * [`damage_whole_structure`](damage_whole_structure.md)
+    * [`farm_damage`](farm_damage.md)
+* **Affects:** [`component`](component.md) (One or more damages affect a component or its subclasses)
+* **Is reported by:** [`survey`](survey.md) (One or more damages is reported in a survey)
+* **Reported in:** [`attachment`](attachment.md) (A damage is reported in one or more attachments)
+* **Results in:** [`economic_loss`](economic_loss.md)

@@ -106,6 +106,27 @@
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage/"/>
     </url>
     <url>
+        <loc>Nonetables/damage_artistic_good/</loc>
+        <lastmod>2026-10-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_artistic_good/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_artistic_good/"/>
+    </url>
+    <url>
+        <loc>Nonetables/damage_building_functionality/</loc>
+        <lastmod>2026-10-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_building_functionality/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_building_functionality/"/>
+    </url>
+    <url>
+        <loc>Nonetables/damage_building_not_structural/</loc>
+        <lastmod>2026-10-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_building_not_structural/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_building_not_structural/"/>
+    </url>
+    <url>
         <loc>Nonetables/damage_people/</loc>
         <lastmod>2026-10-01</lastmod>
         <changefreq>daily</changefreq>
@@ -426,6 +447,27 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage/"/>
+    </url>
+    <url>
+        <loc>Noneit/tables/damage_artistic_good/</loc>
+        <lastmod>2026-10-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_artistic_good/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_artistic_good/"/>
+    </url>
+    <url>
+        <loc>Noneit/tables/damage_building_functionality/</loc>
+        <lastmod>2026-10-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_building_functionality/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_building_functionality/"/>
+    </url>
+    <url>
+        <loc>Noneit/tables/damage_building_not_structural/</loc>
+        <lastmod>2026-10-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_building_not_structural/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_building_not_structural/"/>
     </url>
     <url>
         <loc>Noneit/tables/damage_people/</loc>

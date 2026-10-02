@@ -79,6 +79,11 @@ nav:
         - Damage to artistic good: tables/damage_artistic_good.md
         - Damage to building functionality: tables/damage_building_functionality.md
         - Non-structural damage to buildings: tables/damage_building_not_structural.md
+        - Structural damage to buildings: tables/damage_building_structural.md
+        - Damage to business operations: tables/damage_business_operations.md
+        - Damage to church structure: tables/damage_church_structure.md
+        - Damage to goods: tables/damage_goods.md
+        - Damage to network components: tables/damage_network_component.md
         - Whole structure damage: tables/damage_whole_structure.md
         - Vehicle damage: tables/damage_vehicles.md
         - Damages to people: tables/damage_people.md

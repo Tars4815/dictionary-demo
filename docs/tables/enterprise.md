@@ -10,18 +10,18 @@
 | `type` | VARCHAR(255) | Discriminator column defining the specific type of enterprise | `BUILDING` | NOT NULL | No | Values currently present in the data: 'BUILDING', 'FARM', 'TRANSPORT', 'TELECOMMUNICATION' |
 | `name` | VARCHAR(255) | Official name or denomination of the enterprise | `Main Headquarters` | | No | |
 | `management_type` | VARCHAR(255) | Type of management or business administration | `PUBLIC` | | No | e.g., 'PUBLIC', 'PRIVATE', 'MIXED' |
-| `vat` | VARCHAR(255) | VAT number of the enterprise | [...] | | No | |
-| `description` | VARCHAR(255) | [...] | [...] | | No | |
+| `vat` | VARCHAR(255) | VAT number of the enterprise | `IT00000000000` | | No | |
+| `description` | VARCHAR(255) | Free-text description of the enterprise | `Regional hospital` | | No | |
 | `country` | VARCHAR(255) | Country where the enterprise is located | `Italy` | | No | |
-| `state` | VARCHAR(255) | State or region where the enterprise is located | [...] | | No | |
-| `county` | VARCHAR(255) | County or province where the enterprise is located | [...] | | No | |
+| `state` | VARCHAR(255) | State or region where the enterprise is located | `Lazio` | | No | |
+| `county` | VARCHAR(255) | County or province where the enterprise is located | `Rome` | | No | |
 | `town` | VARCHAR(255) | Municipality where the enterprise is located | `Rome` | | No | |
-| `hamlet` | VARCHAR(255) | Hamlet or locality where the enterprise is located | [...] | | No | |
-| `road` | VARCHAR(255) | Street where the enterprise is located | [...] | | No | |
-| `house_number` | VARCHAR(255) | House number of the enterprise | [...] | | No | |
-| `postcode` | VARCHAR(255) | Postal code of the enterprise | [...] | | No | |
+| `hamlet` | VARCHAR(255) | Hamlet or locality where the enterprise is located | `Trastevere` | | No | |
+| `road` | VARCHAR(255) | Street where the enterprise is located | `Via Appia` | | No | |
+| `house_number` | VARCHAR(255) | House number of the enterprise | `10` | | No | |
+| `postcode` | VARCHAR(255) | Postal code of the enterprise | `00100` | | No | |
 | `geometry` | GEOMETRY | Spatial representation of the enterprise | `POINT(12.49 41.89)` | | Yes | EPSG:4326. Can be a Point or a Polygon depending on the scale |
-| `coordinates_inferred` | BOOLEAN | [...] | [...] | | No | |
+| `coordinates_inferred` | BOOLEAN | Whether the coordinates of the enterprise were inferred rather than directly measured | [...] | | No | |
 
 ## Relationships
 

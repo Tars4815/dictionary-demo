@@ -32,9 +32,6 @@ nav:
   - Home: index.md
   - Overview of the schema (ER): schema_er.md
   - Data Dictionary:
-    - Users and access control:
-      - User groups: tables/users.md
-      - Roles: tables/roles.md
     - Entities and relationships:
       - Enterprise and subclasses:
         - Enterprise: tables/enterprise.md

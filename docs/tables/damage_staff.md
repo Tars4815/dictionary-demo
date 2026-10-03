@@ -7,13 +7,13 @@
 | Column | Data type | Definition | Example value | Constraint? | Geometry? | Comments |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | `id` | BIGINT | Unique identifier for the damage to farm staff | `42` | PK, FK | No | Primary key that also acts as a Foreign Key referencing `farm_damage.id` (and, in turn, `damage.id`) |
-| `duration_of_absence` | INTEGER | [...] | [...] | - | No | - |
-| `number_of_absent` | INTEGER | [...] | [...] | - | No | - |
-| `number_of_dead` | INTEGER | [...] | [...] | - | No | - |
-| `number_of_injured` | INTEGER | [...] | [...] | - | No | - |
-| `further_details` | VARCHAR | [...] | [...] | - | No | - |
-| `reason_of_absence` | VARCHAR | [...] | [...] | - | No | - |
-| `number_of_missing` | INTEGER | [...] | [...] | - | No | - |
+| `duration_of_absence` | INTEGER | Duration of the absence of the staff | [...] | - | No | - |
+| `number_of_absent` | INTEGER | Number of staff members absent | [...] | - | No | - |
+| `number_of_dead` | INTEGER | Number of staff members killed | [...] | - | No | - |
+| `number_of_injured` | INTEGER | Number of staff members injured | [...] | - | No | - |
+| `further_details` | VARCHAR | Further details on the damage to the staff | [...] | - | No | - |
+| `reason_of_absence` | VARCHAR | Reason for the absence | [...] | - | No | - |
+| `number_of_missing` | INTEGER | Number of staff members missing | [...] | - | No | - |
 
 ## Relationships
 

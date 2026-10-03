@@ -7,11 +7,11 @@
 | Column | Data type | Definition | Example value | Constraint? | Geometry? | Comments |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | `id` | BIGINT | Unique identifier for the damage to an agriculture product | `42` | PK, FK | No | Primary key that also acts as a Foreign Key referencing `farm_damage.id` (and, in turn, `damage.id`) |
-| `non_produced_good_quantity` | DOUBLE PRECISION | [...] | [...] | - | No | - |
-| `quality_loss_percentage` | DOUBLE PRECISION | [...] | [...] | - | No | - |
-| `total_damage_percentage` | DOUBLE PRECISION | [...] | [...] | - | No | - |
-| `total_losses_percentage` | DOUBLE PRECISION | [...] | [...] | - | No | - |
-| `yield_loss_percentage` | DOUBLE PRECISION | [...] | [...] | - | No | - |
+| `non_produced_good_quantity` | DOUBLE PRECISION | Quantity of goods not produced because of the damage | [...] | - | No | - |
+| `quality_loss_percentage` | DOUBLE PRECISION | Percentage of quality loss of the product | [...] | - | No | - |
+| `total_damage_percentage` | DOUBLE PRECISION | Total percentage of damage to the product | [...] | - | No | - |
+| `total_losses_percentage` | DOUBLE PRECISION | Total percentage of losses | [...] | - | No | - |
+| `yield_loss_percentage` | DOUBLE PRECISION | Percentage of yield loss | [...] | - | No | - |
 
 ## Relationships
 

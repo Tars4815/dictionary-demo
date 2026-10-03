@@ -7,7 +7,7 @@
 | Column | Data type | Definition | Example value | Constraint? | Geometry? | Comments |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | `id` | BIGINT | Unique identifier for the building component | `42` | PK, FK | No | Primary key that also acts as a Foreign Key referencing `component.id` |
-| `principal` | BOOLEAN | [...] | `true` | - | No | [...] |
+| `principal` | BOOLEAN | Whether this is the principal building component | `true` | - | No | [...] |
 | `subtype` | VARCHAR(255) | [...] | [...] | - | No | [...] |
 | `public_service_code` | VARCHAR(255) | [...] | [...] | - | No | [...] |
 | `heritage_tier` | VARCHAR(255) | [...] | [...] | - | No | [...] |
@@ -29,8 +29,8 @@
 | `n_under_floors` | INTEGER | Number of underground floors | `1` | - | No | |
 | `floor_area` | INTEGER | Metric surface of the floor area | `1000` | - | No | |
 | `usage` | VARCHAR(255) | [...] | [...] | - | No | [...] |
-| `foundation_typology` | VARCHAR(255) | [...] | [...] | - | No | [...] |
-| `main_use` | VARCHAR(255) | [...] | [...] | - | No | [...] |
+| `foundation_typology` | VARCHAR(255) | Typology of the foundations | [...] | - | No | [...] |
+| `main_use` | VARCHAR(255) | Main use of the building | [...] | - | No | [...] |
 
 ## Relationships
 

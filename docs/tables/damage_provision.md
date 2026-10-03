@@ -7,15 +7,15 @@
 | Column | Data type | Definition | Example value | Constraint? | Geometry? | Comments |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | `id` | BIGINT | Unique identifier for the damage to provisions | `42` | PK, FK | No | Primary key that also acts as a Foreign Key referencing `farm_damage.id` (and, in turn, `damage.id`) |
-| `additional_food` | INTEGER | [...] | [...] | - | No | - |
-| `additional_veterinary` | INTEGER | [...] | [...] | - | No | - |
-| `losses_fees` | INTEGER | [...] | [...] | - | No | - |
-| `losses_premature_sale` | INTEGER | [...] | [...] | - | No | - |
-| `losses_value` | INTEGER | [...] | [...] | - | No | - |
-| `relocation_cost` | INTEGER | [...] | [...] | - | No | - |
-| `replanting_cost` | INTEGER | [...] | [...] | - | No | - |
-| `additional_materials` | INTEGER | [...] | [...] | - | No | - |
-| `restoration_cost` | INTEGER | [...] | [...] | - | No | - |
+| `additional_food` | INTEGER | Additional cost of food | [...] | - | No | - |
+| `additional_veterinary` | INTEGER | Additional veterinary cost | [...] | - | No | - |
+| `losses_fees` | INTEGER | Losses in fees | [...] | - | No | - |
+| `losses_premature_sale` | INTEGER | Losses from premature sale | [...] | - | No | - |
+| `losses_value` | INTEGER | Value of the losses | [...] | - | No | - |
+| `relocation_cost` | INTEGER | Cost of relocation | [...] | - | No | - |
+| `replanting_cost` | INTEGER | Cost of replanting | [...] | - | No | - |
+| `additional_materials` | INTEGER | Cost of additional materials | [...] | - | No | - |
+| `restoration_cost` | INTEGER | Cost of restoration | [...] | - | No | - |
 
 ## Relationships
 

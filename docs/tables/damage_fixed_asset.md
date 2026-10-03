@@ -7,8 +7,8 @@
 | Column | Data type | Definition | Example value | Constraint? | Geometry? | Comments |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | `id` | BIGINT | Unique identifier for the damage to a farm fixed asset | `42` | PK, FK | No | Primary key that also acts as a Foreign Key referencing `farm_damage.id` (and, in turn, `damage.id`) |
-| `perc_area` | DOUBLE PRECISION | [...] | [...] | - | No | - |
-| `size` | DOUBLE PRECISION | [...] | [...] | - | No | - |
+| `perc_area` | DOUBLE PRECISION | Percentage of the area affected | [...] | - | No | - |
+| `size` | DOUBLE PRECISION | Size of the affected fixed asset | [...] | - | No | - |
 
 ## Relationships
 

@@ -8,10 +8,10 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | `id` | BIGINT | Unique identifier for the economic loss record | `3` | PK | No | [...] |
 | `damage_id` | BIGINT | Foreign key referring to a reported damage | [...] | FK | No | Pointing to id of entity [damage](damage.md) |
-| `approved_cost` | DOUBLE PRECISION | [...] | - | - | No | - |
-| `estimated_cost` | DOUBLE PRECISION | [...] | - | - | No | - |
-| `final_cost` | DOUBLE PRECISION | [...] | - | - | No | - |
-| `type_of_cost` | VARCHAR | [...] | - | - | No | - |
+| `approved_cost` | DOUBLE PRECISION | Cost approved for the damage | - | - | No | - |
+| `estimated_cost` | DOUBLE PRECISION | Estimated cost of the damage | - | - | No | - |
+| `final_cost` | DOUBLE PRECISION | Final cost of the damage | - | - | No | - |
+| `type_of_cost` | VARCHAR | Type of cost | - | - | No | - |
 
 ## Relationships
 

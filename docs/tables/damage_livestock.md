@@ -7,11 +7,11 @@
 | Column | Data type | Definition | Example value | Constraint? | Geometry? | Comments |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | `id` | BIGINT | Unique identifier for the damage to livestock | `42` | PK, FK | No | Primary key that also acts as a Foreign Key referencing `farm_damage.id` (and, in turn, `damage.id`) |
-| `number_of_dead` | INTEGER | [...] | [...] | - | No | - |
-| `number_of_diseased` | INTEGER | [...] | [...] | - | No | - |
-| `number_of_injured` | INTEGER | [...] | [...] | - | No | - |
-| `number_of_missing` | INTEGER | [...] | [...] | - | No | - |
-| `disease_description` | VARCHAR | [...] | [...] | - | No | - |
+| `number_of_dead` | INTEGER | Number of animals dead | [...] | - | No | - |
+| `number_of_diseased` | INTEGER | Number of animals diseased | [...] | - | No | - |
+| `number_of_injured` | INTEGER | Number of animals injured | [...] | - | No | - |
+| `number_of_missing` | INTEGER | Number of animals missing | [...] | - | No | - |
+| `disease_description` | VARCHAR | Description of the disease | [...] | - | No | - |
 
 ## Relationships
 

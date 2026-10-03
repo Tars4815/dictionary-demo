@@ -11,7 +11,7 @@
 ## Relationships
 
 * **Inherits from (Sub-type of):** [`enterprise`](enterprise.md). The `network_system` table is a specialized extension of the `enterprise` table.
-* **Has Sub-types (Inheritance):** The following tables inherit from `enterprise` and share its `id`:
+* **Has Sub-types (Inheritance):** The following tables inherit from `network_system` (and, through it, from `enterprise`) and share its `id`:
     * [`electrical_system`](electrical_system.md)
     * [`tlc_system`](tlc_system.md)
     * [`transport_system`](transport_system.md)
@@ -22,7 +22,7 @@
     * `network_service`
 
 !!! tip "Where is the rest of the data?"
-    To find the name, geographical location (`geometry`, `town`, `country`), or ownership details of a network system, you must join this table with the `enterprise` record that shares the exact same `id`.
+    To find the name, geographical location (`geometry`, `town`, `country`), or other details of a network system, you must join this table with the `enterprise` record that shares the exact same `id`.
 
 ## Example Query
 
@@ -33,11 +33,10 @@ SELECT
     n.id, 
     e.name, 
     e.town, 
+    e.type,
     ST_AsText(e.geometry) as coordinates 
 FROM 
     network_system n
 JOIN 
-    enterprise e ON n.id = e.id
-WHERE 
-    e.type = 'NETWORK_SYSTEM';
+    enterprise e ON n.id = e.id;
 ```

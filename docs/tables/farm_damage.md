@@ -1,6 +1,6 @@
-# Table: `damage_whole_structure`
+# Table: `farm_damage`
 
-**Description (EN):** This table represents damages reported to farms. In the database's inheritance architecture, it acts as a direct sub-type of the [`damage`](damage.md) table. It does not store redundant descriptive columns; instead, it uses a shared primary key to inherit all high-level attributes (such as name, location, management type, and geometry) from its parent `damage` record.
+**Description (EN):** This table represents damages reported to farms. In the database's inheritance architecture, it acts as a direct sub-type of the [`damage`](damage.md) table. It does not store redundant descriptive columns; instead, it uses a shared primary key to inherit all high-level attributes (such as description, dates, location and geometry) from its parent `damage` record.
 
 ## Column Structure
 
@@ -23,7 +23,7 @@
     * [`damage_staff`](damage_staff.md)
 
 !!! tip "Where is the rest of the data?"
-    To find the name, geographical location (`geometry`, `town`, `country`), or other details of a damage to farms, you must join this table with the `damage` record that shares the exact same `id`.
+    To find the description, dates, geographical location (`geometry`, `town`, `country`), or other details of a damage to farms, you must join this table with the `damage` record that shares the exact same `id`.
 
 ## Example Query
 
@@ -34,5 +34,5 @@ SELECT
     fd.*,
     d.*
 FROM 
-    farm_damage fd join damage d on fd.id = d.id
+    farm_damage fd JOIN damage d ON fd.id = d.id;
 ```

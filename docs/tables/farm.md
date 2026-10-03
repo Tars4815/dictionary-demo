@@ -12,14 +12,12 @@
 
 * **Inherits from (Sub-type of):** [`enterprise`](enterprise.md). The `farm` table is a specialized extension of the `enterprise` table.
 * **Contains:** While not linked directly via a `farm_id`, a farm owns agricultural assets through the `enterprise_id` column in the `component` table. These components often include specialized agricultural sub-types such as:
-    * `crop`
-    * `livestock`
-    * `agriculture_product`
-    * `structure` (e.g., barns, greenhouses)
-    * `machinery` (e.g., tractors)
+    * [`agriculture_product`](agriculture_product.md) and its sub-types [`crop`](crop.md) and [`stored`](stored.md)
+    * [`livestock`](livestock.md)
+    * [`fixed_asset`](fixed_asset.md) and its sub-types (e.g. [`machinery`](machinery.md) such as tractors)
 
 !!! tip "Where is the rest of the data?"
-    To find the name, geographical location (`geometry`, `town`, `country`), or ownership details of a farm, you must join this table with the `enterprise` record that shares the exact same `id`.
+    To find the name, geographical location (`geometry`, `town`, `country`), or other details of a farm, you must join this table with the `enterprise` record that shares the exact same `id`.
 
 ## Example Query
 

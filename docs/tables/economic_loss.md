@@ -1,18 +1,35 @@
 # Table: `economic_loss`
 
-**Description (EN):** This table stores the information and details related to a specific damage assessement survey conducted following a major event.
+**Description (EN):** This table stores the costs associated with a reported damage: the estimated, approved and final amounts.
 
 ## Column Structure
 
 | Column | Data type | Definition | Example value | Constraint? | Geometry? | Comments |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| `id` | BIGINT | Unique identifier for the survey | `3` | PK | No |[...] |
+| `id` | BIGINT | Unique identifier for the economic loss record | `3` | PK | No | [...] |
 | `damage_id` | BIGINT | Foreign key referring to a reported damage | [...] | FK | No | Pointing to id of entity [damage](damage.md) |
-| `approved_cost` | BIGINT | [...] | - | - | No | - |
-| `estimated_cost` | BIGINT | [...] | - | - | No | - |
-| `final_cost` | BIGINT | [...] | - | - | No | - |
-| `type_of_cost` | BIGINT | [...] | - | - | No | - |
+| `approved_cost` | DOUBLE PRECISION | [...] | - | - | No | - |
+| `estimated_cost` | DOUBLE PRECISION | [...] | - | - | No | - |
+| `final_cost` | DOUBLE PRECISION | [...] | - | - | No | - |
+| `type_of_cost` | VARCHAR | [...] | - | - | No | - |
 
 ## Relationships
 
-* **Is the result of** [`damage`](damage.md)
+* **Refers to:** [`damage`](damage.md) through `damage_id`. The economic loss is the monetary result of a reported damage.
+
+## Example Query
+
+Retrieve the costs recorded for each damage:
+
+```sql
+SELECT 
+    d.id AS damage_id, 
+    el.type_of_cost, 
+    el.estimated_cost, 
+    el.approved_cost, 
+    el.final_cost 
+FROM 
+    economic_loss el
+JOIN 
+    damage d ON el.damage_id = d.id;
+```

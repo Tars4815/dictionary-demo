@@ -25,39 +25,6 @@ erDiagram
     ENTERPRISE ||--o{ COMPONENT : contains
     ENTERPRISE ||--o{ SURVEY : undergoes
 
-    ENTERPRISE {
-        bigint id PK
-        varchar type "discriminator"
-        varchar name
-        varchar management_type
-        varchar town
-        varchar country
-        geometry geometry
-        bigint owner_id FK
-    }
-    BUSINESS {
-        bigint id PK, FK
-        bigint share_capital
-        varchar nace_section
-    }
-    BUILDING {
-        bigint id PK, FK
-    }
-    FARM {
-        bigint id PK, FK
-    }
-    NETWORK_SYSTEM {
-        bigint id PK, FK
-    }
-    ELECTRICAL_SYSTEM {
-        bigint id PK, FK
-    }
-    TLC_SYSTEM {
-        bigint id PK, FK
-    }
-    TRANSPORT_SYSTEM {
-        bigint id PK, FK
-    }
 ```
 ## 2. Components and their sub-types
 
@@ -90,25 +57,6 @@ erDiagram
     FIXED_ASSET ||--o| MACHINERY : "is a"
     FIXED_ASSET ||--o| MATERIAL : "is a"
 
-    COMPONENT {
-        bigint id PK
-        bigint enterprise_id FK
-        boolean insured
-        varchar name
-        varchar country
-        varchar state
-        varchar county
-        varchar town
-        varchar hamlet
-        varchar road
-        varchar house_number
-        varchar postcode
-        varchar details
-        geometry geometry
-        boolean coordinates_inferred
-        boolean cultural_heritage
-        varchar component_kind "discriminator"
-    }
 ```
 ## 3. Events, surveys and damage
 
@@ -119,12 +67,6 @@ erDiagram
     SURVEY ||--o{ DAMAGE : reports
     COMPONENT ||--o{ DAMAGE : suffers
 
-    SURVEY {
-        bigint id PK
-        timestamp created_on
-        bigint enterprise_id FK
-        bigint event_id FK
-    }
 ```
 
 ### Relationship Legend

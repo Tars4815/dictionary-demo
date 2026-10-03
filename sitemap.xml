@@ -316,13 +316,6 @@
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/livestock/"/>
     </url>
     <url>
-        <loc>Nonetables/locations/</loc>
-        <lastmod>2026-10-03</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/locations/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/locations/"/>
-    </url>
-    <url>
         <loc>Nonetables/machinery/</loc>
         <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
@@ -748,13 +741,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/livestock/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/livestock/"/>
-    </url>
-    <url>
-        <loc>Noneit/tables/locations/</loc>
-        <lastmod>2026-10-03</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/locations/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/locations/"/>
     </url>
     <url>
         <loc>Noneit/tables/machinery/</loc>

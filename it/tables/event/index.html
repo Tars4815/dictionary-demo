@@ -1783,6 +1783,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../attachment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Attachment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../survey/" class="md-nav__link">
         
   
@@ -1881,6 +1909,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#relationships" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relationships
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1910,10 +1949,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_7" >
         
           
-          <label class="md-nav__link" for="__nav_3_2_6" id="__nav_3_2_6_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3_2_7" id="__nav_3_2_7_label" tabindex="0">
             
   
   
@@ -1931,8 +1970,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3_2_6">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_7">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -2354,10 +2393,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_6_15" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_7_15" >
         
           
-          <label class="md-nav__link" for="__nav_3_2_6_15" id="__nav_3_2_6_15_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3_2_7_15" id="__nav_3_2_7_15_label" tabindex="0">
             
   
   
@@ -2375,8 +2414,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_3_2_6_15_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3_2_6_15">
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_3_2_7_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_7_15">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -2677,6 +2716,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#relationships" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relationships
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2738,7 +2788,7 @@
 <td style="text-align: left;">[...]</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>parente_event_id</code></td>
+<td style="text-align: left;"><code>parent_event_id</code></td>
 <td style="text-align: left;">BIGINT</td>
 <td style="text-align: left;">Reference in case of multi-event</td>
 <td style="text-align: left;">[...]</td>
@@ -2818,8 +2868,23 @@
 <td style="text-align: left;">No</td>
 <td style="text-align: left;">-</td>
 </tr>
+<tr>
+<td style="text-align: left;"><code>coordinates_inferred</code></td>
+<td style="text-align: left;">BOOLEAN</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">[...]</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">-</td>
+</tr>
 </tbody>
 </table>
+<h2 id="relationships">Relationships</h2>
+<p>Because <code>event</code> is one of the core entities of the schema, it has extensive relationships:</p>
+<ul>
+<li><strong>Is followed by</strong> <a href="../survey/"><code>survey</code></a></li>
+<li><strong>Is combined with</strong> <a href="./"><code>event</code></a>. In case of multi-event scenario, a record of this entity can be linked to another event.</li>
+</ul>
 
 
 

@@ -435,15 +435,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-events-surveys-and-damage" class="md-nav__link">
+  <a href="#3-interactions-between-entities" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3. Events, surveys and damage
+        3. Interactions between entities
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="3. Events, surveys and damage">
+    <nav class="md-nav" aria-label="3. Interactions between entities">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -2741,15 +2741,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-events-surveys-and-damage" class="md-nav__link">
+  <a href="#3-interactions-between-entities" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3. Events, surveys and damage
+        3. Interactions between entities
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="3. Events, surveys and damage">
+    <nav class="md-nav" aria-label="3. Interactions between entities">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -2836,12 +2836,15 @@
     FIXED_ASSET ||--o| MACHINERY : "is a"
     FIXED_ASSET ||--o| MATERIAL : "is a"
 </code></pre>
-<h2 id="3-events-surveys-and-damage">3. Events, surveys and damage</h2>
+<h2 id="3-interactions-between-entities">3. Interactions between entities</h2>
 <pre class="mermaid"><code>erDiagram
     EVENT ||--o{ SURVEY : triggers
     ENTERPRISE ||--o{ SURVEY : undergoes
     SURVEY ||--o{ DAMAGE : reports
     COMPONENT ||--o{ DAMAGE : suffers
+    ENTERPRISE ||--o{ COMPONENT : contains
+    EVENT ||--o{ EVENT : linked
+    DAMAGE ||--o{ ECONOMIC_LOSS : has
 </code></pre>
 <h3 id="relationship-legend">Relationship Legend</h3>
 <ul>

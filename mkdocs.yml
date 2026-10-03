@@ -96,5 +96,6 @@ nav:
           - Damage to livestock: tables/damage_livestock.md 
           - Damage to provision: tables/damage_provision.md
           - Damage to staff: tables/damage_staff.md
+      - Economic loss: tables/economic_loss.md
   - Contribution Guidelines: guidelines.md
 

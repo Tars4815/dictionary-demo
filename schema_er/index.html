@@ -2806,40 +2806,7 @@
     NETWORK_SYSTEM ||--o| TRANSPORT_SYSTEM : "is a"
     ENTERPRISE ||--o{ COMPONENT : contains
     ENTERPRISE ||--o{ SURVEY : undergoes
-
-    ENTERPRISE {
-        bigint id PK
-        varchar type "discriminator"
-        varchar name
-        varchar management_type
-        varchar town
-        varchar country
-        geometry geometry
-        bigint owner_id FK
-    }
-    BUSINESS {
-        bigint id PK, FK
-        bigint share_capital
-        varchar nace_section
-    }
-    BUILDING {
-        bigint id PK, FK
-    }
-    FARM {
-        bigint id PK, FK
-    }
-    NETWORK_SYSTEM {
-        bigint id PK, FK
-    }
-    ELECTRICAL_SYSTEM {
-        bigint id PK, FK
-    }
-    TLC_SYSTEM {
-        bigint id PK, FK
-    }
-    TRANSPORT_SYSTEM {
-        bigint id PK, FK
-    }</code></pre>
+</code></pre>
 <h2 id="2-components-and-their-sub-types">2. Components and their sub-types</h2>
 <pre class="mermaid"><code>erDiagram
     ENTERPRISE ||--o{ COMPONENT : contains
@@ -2868,39 +2835,14 @@
     FIXED_ASSET ||--o| LAND : "is a"
     FIXED_ASSET ||--o| MACHINERY : "is a"
     FIXED_ASSET ||--o| MATERIAL : "is a"
-
-    COMPONENT {
-        bigint id PK
-        bigint enterprise_id FK
-        boolean insured
-        varchar name
-        varchar country
-        varchar state
-        varchar county
-        varchar town
-        varchar hamlet
-        varchar road
-        varchar house_number
-        varchar postcode
-        varchar details
-        geometry geometry
-        boolean coordinates_inferred
-        boolean cultural_heritage
-        varchar component_kind "discriminator"
-    }</code></pre>
+</code></pre>
 <h2 id="3-events-surveys-and-damage">3. Events, surveys and damage</h2>
 <pre class="mermaid"><code>erDiagram
     EVENT ||--o{ SURVEY : triggers
     ENTERPRISE ||--o{ SURVEY : undergoes
     SURVEY ||--o{ DAMAGE : reports
     COMPONENT ||--o{ DAMAGE : suffers
-
-    SURVEY {
-        bigint id PK
-        timestamp created_on
-        bigint enterprise_id FK
-        bigint event_id FK
-    }</code></pre>
+</code></pre>
 <h3 id="relationship-legend">Relationship Legend</h3>
 <ul>
 <li><code>||--o{</code> : <strong>One-to-Many</strong>. <em>Example: An enterprise contains many components.</em></li>

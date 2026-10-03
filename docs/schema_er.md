@@ -67,6 +67,8 @@ erDiagram
     SURVEY ||--o{ DAMAGE : reports
     COMPONENT ||--o{ DAMAGE : suffers
     ENTERPRISE ||--o{ COMPONENT : contains
+    EVENT ||--o{ EVENT : linked
+    DAMAGE ||--o{ ECONOMIC_LOSS : has
 
 ```
 

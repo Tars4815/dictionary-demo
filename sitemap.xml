@@ -2,756 +2,868 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>None./</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="None"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/"/>
     </url>
     <url>
         <loc>Noneguidelines/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Noneguidelines/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/guidelines/"/>
     </url>
     <url>
         <loc>Noneschema_er/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Noneschema_er/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/schema_er/"/>
     </url>
     <url>
         <loc>Nonetables/added_block/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/added_block/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/added_block/"/>
     </url>
     <url>
         <loc>Nonetables/agriculture_product/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/agriculture_product/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/agriculture_product/"/>
     </url>
     <url>
         <loc>Nonetables/artistic_good/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/artistic_good/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/artistic_good/"/>
     </url>
     <url>
         <loc>Nonetables/attachment/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/attachment/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/attachment/"/>
     </url>
     <url>
         <loc>Nonetables/building/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/building/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/building/"/>
     </url>
     <url>
         <loc>Nonetables/building_component/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/building_component/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/building_component/"/>
     </url>
     <url>
         <loc>Nonetables/building_functionality/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/building_functionality/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/building_functionality/"/>
     </url>
     <url>
         <loc>Nonetables/business/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/business/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/business/"/>
     </url>
     <url>
         <loc>Nonetables/business_operations/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/business_operations/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/business_operations/"/>
     </url>
     <url>
         <loc>Nonetables/component/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/component/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/component/"/>
     </url>
     <url>
         <loc>Nonetables/crop/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/crop/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/crop/"/>
     </url>
     <url>
         <loc>Nonetables/damage/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage/"/>
     </url>
     <url>
+        <loc>Nonetables/damage_agriculture_product/</loc>
+        <lastmod>2026-10-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_agriculture_product/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_agriculture_product/"/>
+    </url>
+    <url>
         <loc>Nonetables/damage_artistic_good/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_artistic_good/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_artistic_good/"/>
     </url>
     <url>
         <loc>Nonetables/damage_building_functionality/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_building_functionality/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_building_functionality/"/>
     </url>
     <url>
         <loc>Nonetables/damage_building_not_structural/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_building_not_structural/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_building_not_structural/"/>
     </url>
     <url>
         <loc>Nonetables/damage_building_structural/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_building_structural/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_building_structural/"/>
     </url>
     <url>
         <loc>Nonetables/damage_business_operations/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_business_operations/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_business_operations/"/>
     </url>
     <url>
         <loc>Nonetables/damage_church_structure/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_church_structure/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_church_structure/"/>
     </url>
     <url>
+        <loc>Nonetables/damage_fixed_asset/</loc>
+        <lastmod>2026-10-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_fixed_asset/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_fixed_asset/"/>
+    </url>
+    <url>
         <loc>Nonetables/damage_goods/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_goods/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_goods/"/>
     </url>
     <url>
+        <loc>Nonetables/damage_livestock/</loc>
+        <lastmod>2026-10-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_livestock/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_livestock/"/>
+    </url>
+    <url>
         <loc>Nonetables/damage_network_component/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_network_component/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_network_component/"/>
     </url>
     <url>
+        <loc>Nonetables/damage_network_service/</loc>
+        <lastmod>2026-10-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_network_service/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_network_service/"/>
+    </url>
+    <url>
         <loc>Nonetables/damage_people/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_people/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_people/"/>
     </url>
     <url>
+        <loc>Nonetables/damage_product/</loc>
+        <lastmod>2026-10-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_product/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_product/"/>
+    </url>
+    <url>
+        <loc>Nonetables/damage_provision/</loc>
+        <lastmod>2026-10-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_provision/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_provision/"/>
+    </url>
+    <url>
+        <loc>Nonetables/damage_staff/</loc>
+        <lastmod>2026-10-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_staff/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_staff/"/>
+    </url>
+    <url>
         <loc>Nonetables/damage_vehicles/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_vehicles/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_vehicles/"/>
     </url>
     <url>
         <loc>Nonetables/damage_whole_structure/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_whole_structure/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_whole_structure/"/>
     </url>
     <url>
         <loc>Nonetables/economic_loss/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/economic_loss/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/economic_loss/"/>
     </url>
     <url>
         <loc>Nonetables/electrical_network_component/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/electrical_network_component/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/electrical_network_component/"/>
     </url>
     <url>
         <loc>Nonetables/electrical_system/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/electrical_system/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/electrical_system/"/>
     </url>
     <url>
         <loc>Nonetables/enterprise/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/enterprise/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/enterprise/"/>
     </url>
     <url>
         <loc>Nonetables/enterprise_owner/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/enterprise_owner/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/enterprise_owner/"/>
     </url>
     <url>
         <loc>Nonetables/event/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/event/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/event/"/>
     </url>
     <url>
         <loc>Nonetables/farm/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/farm/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/farm/"/>
     </url>
     <url>
+        <loc>Nonetables/farm_damage/</loc>
+        <lastmod>2026-10-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/farm_damage/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/farm_damage/"/>
+    </url>
+    <url>
         <loc>Nonetables/fixed_asset/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/fixed_asset/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/fixed_asset/"/>
     </url>
     <url>
         <loc>Nonetables/infrastructure/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/infrastructure/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/infrastructure/"/>
     </url>
     <url>
         <loc>Nonetables/land/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/land/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/land/"/>
     </url>
     <url>
         <loc>Nonetables/livestock/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/livestock/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/livestock/"/>
     </url>
     <url>
         <loc>Nonetables/locations/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/locations/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/locations/"/>
     </url>
     <url>
         <loc>Nonetables/machinery/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/machinery/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/machinery/"/>
     </url>
     <url>
         <loc>Nonetables/material/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/material/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/material/"/>
     </url>
     <url>
         <loc>Nonetables/network_service/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/network_service/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/network_service/"/>
     </url>
     <url>
         <loc>Nonetables/network_system/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/network_system/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/network_system/"/>
     </url>
     <url>
         <loc>Nonetables/owner/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/owner/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/owner/"/>
     </url>
     <url>
         <loc>Nonetables/product/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/product/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/product/"/>
     </url>
     <url>
         <loc>Nonetables/provision/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/provision/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/provision/"/>
     </url>
     <url>
         <loc>Nonetables/roles/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/roles/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/roles/"/>
     </url>
     <url>
         <loc>Nonetables/staff/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/staff/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/staff/"/>
     </url>
     <url>
         <loc>Nonetables/stored/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/stored/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/stored/"/>
     </url>
     <url>
         <loc>Nonetables/survey/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/survey/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/survey/"/>
     </url>
     <url>
         <loc>Nonetables/tlc_network_component/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/tlc_network_component/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/tlc_network_component/"/>
     </url>
     <url>
         <loc>Nonetables/tlc_system/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/tlc_system/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/tlc_system/"/>
     </url>
     <url>
         <loc>Nonetables/transport_network_component/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/transport_network_component/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/transport_network_component/"/>
     </url>
     <url>
         <loc>Nonetables/transport_system/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/transport_system/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/transport_system/"/>
     </url>
     <url>
         <loc>Nonetables/users/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/users/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/users/"/>
     </url>
     <url>
         <loc>Noneit/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/"/>
         <xhtml:link rel="alternate" hreflang="en" href="None"/>
     </url>
     <url>
         <loc>Noneit/guidelines/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/guidelines/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Noneguidelines/"/>
     </url>
     <url>
         <loc>Noneit/schema_er/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/schema_er/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Noneschema_er/"/>
     </url>
     <url>
         <loc>Noneit/tables/added_block/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/added_block/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/added_block/"/>
     </url>
     <url>
         <loc>Noneit/tables/agriculture_product/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/agriculture_product/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/agriculture_product/"/>
     </url>
     <url>
         <loc>Noneit/tables/artistic_good/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/artistic_good/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/artistic_good/"/>
     </url>
     <url>
         <loc>Noneit/tables/attachment/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/attachment/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/attachment/"/>
     </url>
     <url>
         <loc>Noneit/tables/building/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/building/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/building/"/>
     </url>
     <url>
         <loc>Noneit/tables/building_component/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/building_component/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/building_component/"/>
     </url>
     <url>
         <loc>Noneit/tables/building_functionality/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/building_functionality/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/building_functionality/"/>
     </url>
     <url>
         <loc>Noneit/tables/business/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/business/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/business/"/>
     </url>
     <url>
         <loc>Noneit/tables/business_operations/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/business_operations/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/business_operations/"/>
     </url>
     <url>
         <loc>Noneit/tables/component/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/component/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/component/"/>
     </url>
     <url>
         <loc>Noneit/tables/crop/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/crop/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/crop/"/>
     </url>
     <url>
         <loc>Noneit/tables/damage/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage/"/>
     </url>
     <url>
+        <loc>Noneit/tables/damage_agriculture_product/</loc>
+        <lastmod>2026-10-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_agriculture_product/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_agriculture_product/"/>
+    </url>
+    <url>
         <loc>Noneit/tables/damage_artistic_good/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_artistic_good/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_artistic_good/"/>
     </url>
     <url>
         <loc>Noneit/tables/damage_building_functionality/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_building_functionality/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_building_functionality/"/>
     </url>
     <url>
         <loc>Noneit/tables/damage_building_not_structural/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_building_not_structural/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_building_not_structural/"/>
     </url>
     <url>
         <loc>Noneit/tables/damage_building_structural/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_building_structural/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_building_structural/"/>
     </url>
     <url>
         <loc>Noneit/tables/damage_business_operations/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_business_operations/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_business_operations/"/>
     </url>
     <url>
         <loc>Noneit/tables/damage_church_structure/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_church_structure/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_church_structure/"/>
     </url>
     <url>
+        <loc>Noneit/tables/damage_fixed_asset/</loc>
+        <lastmod>2026-10-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_fixed_asset/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_fixed_asset/"/>
+    </url>
+    <url>
         <loc>Noneit/tables/damage_goods/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_goods/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_goods/"/>
     </url>
     <url>
+        <loc>Noneit/tables/damage_livestock/</loc>
+        <lastmod>2026-10-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_livestock/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_livestock/"/>
+    </url>
+    <url>
         <loc>Noneit/tables/damage_network_component/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_network_component/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_network_component/"/>
     </url>
     <url>
+        <loc>Noneit/tables/damage_network_service/</loc>
+        <lastmod>2026-10-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_network_service/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_network_service/"/>
+    </url>
+    <url>
         <loc>Noneit/tables/damage_people/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_people/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_people/"/>
     </url>
     <url>
+        <loc>Noneit/tables/damage_product/</loc>
+        <lastmod>2026-10-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_product/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_product/"/>
+    </url>
+    <url>
+        <loc>Noneit/tables/damage_provision/</loc>
+        <lastmod>2026-10-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_provision/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_provision/"/>
+    </url>
+    <url>
+        <loc>Noneit/tables/damage_staff/</loc>
+        <lastmod>2026-10-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_staff/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_staff/"/>
+    </url>
+    <url>
         <loc>Noneit/tables/damage_vehicles/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_vehicles/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_vehicles/"/>
     </url>
     <url>
         <loc>Noneit/tables/damage_whole_structure/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/damage_whole_structure/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/damage_whole_structure/"/>
     </url>
     <url>
         <loc>Noneit/tables/economic_loss/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/economic_loss/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/economic_loss/"/>
     </url>
     <url>
         <loc>Noneit/tables/electrical_network_component/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/electrical_network_component/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/electrical_network_component/"/>
     </url>
     <url>
         <loc>Noneit/tables/electrical_system/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/electrical_system/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/electrical_system/"/>
     </url>
     <url>
         <loc>Noneit/tables/enterprise/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/enterprise/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/enterprise/"/>
     </url>
     <url>
         <loc>Noneit/tables/enterprise_owner/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/enterprise_owner/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/enterprise_owner/"/>
     </url>
     <url>
         <loc>Noneit/tables/event/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/event/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/event/"/>
     </url>
     <url>
         <loc>Noneit/tables/farm/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/farm/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/farm/"/>
     </url>
     <url>
+        <loc>Noneit/tables/farm_damage/</loc>
+        <lastmod>2026-10-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/farm_damage/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/farm_damage/"/>
+    </url>
+    <url>
         <loc>Noneit/tables/fixed_asset/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/fixed_asset/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/fixed_asset/"/>
     </url>
     <url>
         <loc>Noneit/tables/infrastructure/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/infrastructure/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/infrastructure/"/>
     </url>
     <url>
         <loc>Noneit/tables/land/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/land/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/land/"/>
     </url>
     <url>
         <loc>Noneit/tables/livestock/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/livestock/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/livestock/"/>
     </url>
     <url>
         <loc>Noneit/tables/locations/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/locations/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/locations/"/>
     </url>
     <url>
         <loc>Noneit/tables/machinery/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/machinery/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/machinery/"/>
     </url>
     <url>
         <loc>Noneit/tables/material/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/material/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/material/"/>
     </url>
     <url>
         <loc>Noneit/tables/network_service/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/network_service/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/network_service/"/>
     </url>
     <url>
         <loc>Noneit/tables/network_system/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/network_system/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/network_system/"/>
     </url>
     <url>
         <loc>Noneit/tables/owner/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/owner/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/owner/"/>
     </url>
     <url>
         <loc>Noneit/tables/product/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/product/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/product/"/>
     </url>
     <url>
         <loc>Noneit/tables/provision/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/provision/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/provision/"/>
     </url>
     <url>
         <loc>Noneit/tables/roles/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/roles/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/roles/"/>
     </url>
     <url>
         <loc>Noneit/tables/staff/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/staff/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/staff/"/>
     </url>
     <url>
         <loc>Noneit/tables/stored/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/stored/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/stored/"/>
     </url>
     <url>
         <loc>Noneit/tables/survey/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/survey/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/survey/"/>
     </url>
     <url>
         <loc>Noneit/tables/tlc_network_component/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/tlc_network_component/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/tlc_network_component/"/>
     </url>
     <url>
         <loc>Noneit/tables/tlc_system/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/tlc_system/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/tlc_system/"/>
     </url>
     <url>
         <loc>Noneit/tables/transport_network_component/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/transport_network_component/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/transport_network_component/"/>
     </url>
     <url>
         <loc>Noneit/tables/transport_system/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/transport_system/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/transport_system/"/>
     </url>
     <url>
         <loc>Noneit/tables/users/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/users/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/users/"/>

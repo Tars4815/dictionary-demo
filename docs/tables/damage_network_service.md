@@ -14,6 +14,7 @@
 | `transport_outage` | VARCHAR | [...] | [...] | - | No | [...]|
 
 ## Relationships
+
 * **Inherits from (Sub-type of):** [`damage`](damage.md). The `damage_network_service` table is a specialized extension of the `damage` table.
 * **Affects:** [`component`](component.md) (One or more damages affect a component or its subclasses)
 * **Is reported by:** [`survey`](survey.md) (One or more damages is reported in a survey)

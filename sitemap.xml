@@ -365,13 +365,6 @@
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/provision/"/>
     </url>
     <url>
-        <loc>Nonetables/roles/</loc>
-        <lastmod>2026-10-03</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/roles/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/roles/"/>
-    </url>
-    <url>
         <loc>Nonetables/staff/</loc>
         <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
@@ -419,13 +412,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/transport_system/"/>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/transport_system/"/>
-    </url>
-    <url>
-        <loc>Nonetables/users/</loc>
-        <lastmod>2026-10-03</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/users/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/users/"/>
     </url>
     <url>
         <loc>Noneit/</loc>
@@ -792,13 +778,6 @@
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/provision/"/>
     </url>
     <url>
-        <loc>Noneit/tables/roles/</loc>
-        <lastmod>2026-10-03</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/roles/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/roles/"/>
-    </url>
-    <url>
         <loc>Noneit/tables/staff/</loc>
         <lastmod>2026-10-03</lastmod>
         <changefreq>daily</changefreq>
@@ -846,12 +825,5 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/transport_system/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetables/transport_system/"/>
-    </url>
-    <url>
-        <loc>Noneit/tables/users/</loc>
-        <lastmod>2026-10-03</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="it" href="Noneit/tables/users/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonetables/users/"/>
     </url>
 </urlset>

@@ -11,8 +11,26 @@
 | `number_of_injured` | INTEGER | [...] | [...] | - | No | - |
 | `number_of_missing` | INTEGER | [...] | [...] | - | No | - |
 
+
 ## Relationships
 
 * **Inherits from (Sub-type of):** [`damage`](damage.md). The `damage_people` table is a specialized extension of the `damage` table.
+* **Affects:** [`component`](component.md) (One or more damages affect a component or its subclasses)
+* **Is reported by:** [`survey`](survey.md) (One or more damages is reported in a survey)
+* **Reported in:** [`attachment`](attachment.md) (A damage is reported in one or more attachments)
+* **Results in:** [`economic_loss`](economic_loss.md)
 
-[...]
+!!! tip "Where is the rest of the data?"
+    To find the name, geographical location (`geometry`, `town`, `country`), or other details of a damage to people, you must join this table with the `damage` record that shares the exact same `id`.
+
+## Example Query
+
+Retrieve a list of all damages to people, including their descriptions, towns, and spatial coordinates, by joining the table with its parent `damage` entity:
+
+```sql
+SELECT
+    dp.*,
+    d.*
+FROM 
+    damage_people dp  join damage d on dp.id = d.id
+```

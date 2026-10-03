@@ -84,8 +84,17 @@ nav:
         - Damage to church structure: tables/damage_church_structure.md
         - Damage to goods: tables/damage_goods.md
         - Damage to network components: tables/damage_network_component.md
-        - Whole structure damage: tables/damage_whole_structure.md
-        - Vehicle damage: tables/damage_vehicles.md
-        - Damages to people: tables/damage_people.md
+        - Damage to network services: tables/damage_network_service.md
+        - Damage to people: tables/damage_people.md
+        - Damage to products: tables/damage_product.md
+        - Damage to vehicles: tables/damage_vehicles.md
+        - Damage to whole structure: tables/damage_whole_structure.md
+        - Damage to farm and subclasses:
+          - Damage to farm: tables/farm_damage.md
+          - Damage to agriculture product: tables/damage_agriculture_product.md
+          - Damage to fixed asset: tables/damage_fixed_asset.md
+          - Damage to livestock: tables/damage_livestock.md 
+          - Damage to provision: tables/damage_provision.md
+          - Damage to staff: tables/damage_staff.md
   - Contribution Guidelines: guidelines.md
 

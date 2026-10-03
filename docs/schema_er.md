@@ -58,7 +58,7 @@ erDiagram
     FIXED_ASSET ||--o| MATERIAL : "is a"
 
 ```
-## 3. Events, surveys and damage
+## 3. Interactions between entities
 
 ```mermaid
 erDiagram
@@ -66,6 +66,7 @@ erDiagram
     ENTERPRISE ||--o{ SURVEY : undergoes
     SURVEY ||--o{ DAMAGE : reports
     COMPONENT ||--o{ DAMAGE : suffers
+    ENTERPRISE ||--o{ COMPONENT : contains
 
 ```
 

@@ -1,31 +1,45 @@
 # Table: `building`
 
-**Description:** This table stores the structural, economic, and physical characteristics of buildings, including construction details, material types, and spatial dimensions. Categorical attributes are managed via CHECK constraints directly within the table definition. It inherits characteristics of the more generic entity [_Enterprise_](enterprise.md).
+**Description (EN):** This table represents buildings. In the database's inheritance architecture, it acts as a direct sub-type of the [`enterprise`](enterprise.md) table. It does not store redundant descriptive columns; instead, it uses a shared primary key to inherit all high-level attributes (such as name, location, management type, and geometry) from its parent `enterprise` record.
 
-## Column structure
+The structural, economic and physical characteristics of a building (construction year, materials, number of floors, cost, and so on) are stored in the [`building_component`](building_component.md) table.
 
-| Column              | Data type    | Definition                                         | Example value      | Constraint? | Geometry? | Comments                                                                                    |
-| :--------- | :----------- | :-------------- | :----------------- | :---------- | :-------- | :------------------------------------------------------------------------------------------ |
-| `id`                | BIGINT       | Building unique identifier                         | `3`                | PK, FK      | No        | Primay key that acts as external one for enterprise.id                    |              
+## Column Structure
+
+| Column | Data type | Definition | Example value | Constraint? | Geometry? | Comments |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `id` | BIGINT | Building unique identifier | `3` | PK, FK | No | Primary key that also acts as a Foreign Key referencing `enterprise.id` |
 
 ## Relationships
 
-- **Inherits from (Sub-type of):** [`enterprise`](enterprise.md). The `building` table is an extension of the `enterprise` table.
-- **Note:** To find the name, geographical location (`geometry`, `town`, `country`), or VAT of a building, you must look at the `enterprise` record with the exact same `id`.
+* **Inherits from (Sub-type of):** [`enterprise`](enterprise.md). The `building` table is a specialized extension of the `enterprise` table.
+* **Contains:** While not linked directly via a `building_id`, a building owns its physical parts through the `enterprise_id` column in the `component` table. These components often include specialized sub-types such as:
+    * [`building_component`](building_component.md)
+    * [`added_block`](added_block.md)
+    * [`building_functionality`](building_functionality.md)
+
+!!! tip "Where is the rest of the data?"
+    To find the name, geographical location (`geometry`, `town`, `country`), or VAT of a building, you must join this table with the `enterprise` record that shares the exact same `id`. The structural and economic characteristics are in `building_component`, which is linked to the building through `component.enterprise_id`.
 
 ## Example Query
 
-Retrieve the full details of a building by joining its specific structural data with its general enterprise data (such as name and town):
+Retrieve the characteristics of each building by joining its enterprise record with its building components:
 
-````sql
+```sql
 SELECT
     e.name,
     e.town,
-    b.*
+    bc.n_floors,
+    bc.construction_cost,
+    bc.economic_value
 FROM
     building b
 JOIN
     enterprise e ON b.id = e.id
+JOIN
+    component c ON c.enterprise_id = e.id
+JOIN
+    building_component bc ON bc.id = c.id
 WHERE
     e.type = 'BUILDING';
-````
+```

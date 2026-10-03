@@ -46,6 +46,6 @@ Because `damage` is one of the core entities of the schema, it has extensive rel
     * [`damage_whole_structure`](damage_whole_structure.md)
     * [`farm_damage`](farm_damage.md)
 * **Affects:** [`component`](component.md) (One or more damages affect a component or its subclasses)
-* **Is reported by:** [`survey`](survey.md) (One or more damages is reported in a survey)
-* **Reported in:** [`attachment`](attachment.md) (A damage is reported in one or more attachments)
+* **Is recorded by:** [`survey`](survey.md) (One or more damages is reported in a survey)
+* **Documented in:** [`attachment`](attachment.md) (A damage is reported in one or more attachments)
 * **Results in:** [`economic_loss`](economic_loss.md)

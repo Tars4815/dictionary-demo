@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#table-damage_whole_structure" class="md-skip">
+        <a href="#table-farm_damage" class="md-skip">
           Skip to content
         </a>
       
@@ -2770,8 +2770,8 @@
 
 
 
-<h1 id="table-damage_whole_structure">Table: <code>damage_whole_structure</code></h1>
-<p><strong>Description (EN):</strong> This table represents damages reported to farms. In the database's inheritance architecture, it acts as a direct sub-type of the <a href="../damage/"><code>damage</code></a> table. It does not store redundant descriptive columns; instead, it uses a shared primary key to inherit all high-level attributes (such as name, location, management type, and geometry) from its parent <code>damage</code> record.</p>
+<h1 id="table-farm_damage">Table: <code>farm_damage</code></h1>
+<p><strong>Description (EN):</strong> This table represents damages reported to farms. In the database's inheritance architecture, it acts as a direct sub-type of the <a href="../damage/"><code>damage</code></a> table. It does not store redundant descriptive columns; instead, it uses a shared primary key to inherit all high-level attributes (such as description, dates, location and geometry) from its parent <code>damage</code> record.</p>
 <h2 id="column-structure">Column Structure</h2>
 <table>
 <thead>
@@ -2814,14 +2814,14 @@
 </li>
 </ul>
 <p>!!! tip "Where is the rest of the data?"
-    To find the name, geographical location (<code>geometry</code>, <code>town</code>, <code>country</code>), or other details of a damage to farms, you must join this table with the <code>damage</code> record that shares the exact same <code>id</code>.</p>
+    To find the description, dates, geographical location (<code>geometry</code>, <code>town</code>, <code>country</code>), or other details of a damage to farms, you must join this table with the <code>damage</code> record that shares the exact same <code>id</code>.</p>
 <h2 id="example-query">Example Query</h2>
 <p>Retrieve a list of all damages to farms, including their descriptions, towns, and spatial coordinates, by joining the table with its parent <code>damage</code> entity:</p>
 <div class="highlight"><pre><span></span><code><span class="k">SELECT</span>
 <span class="w">    </span><span class="n">fd</span><span class="p">.</span><span class="o">*</span><span class="p">,</span>
 <span class="w">    </span><span class="n">d</span><span class="p">.</span><span class="o">*</span>
 <span class="k">FROM</span><span class="w"> </span>
-<span class="w">    </span><span class="n">farm_damage</span><span class="w"> </span><span class="n">fd</span><span class="w"> </span><span class="k">join</span><span class="w"> </span><span class="n">damage</span><span class="w"> </span><span class="n">d</span><span class="w"> </span><span class="k">on</span><span class="w"> </span><span class="n">fd</span><span class="p">.</span><span class="n">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">d</span><span class="p">.</span><span class="n">id</span>
+<span class="w">    </span><span class="n">farm_damage</span><span class="w"> </span><span class="n">fd</span><span class="w"> </span><span class="k">JOIN</span><span class="w"> </span><span class="n">damage</span><span class="w"> </span><span class="n">d</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="n">fd</span><span class="p">.</span><span class="n">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">d</span><span class="p">.</span><span class="n">id</span><span class="p">;</span>
 </code></pre></div>
 
 

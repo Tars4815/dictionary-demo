@@ -2771,7 +2771,7 @@
 
 
 <h1 id="table-damage_staff">Table: <code>damage_staff</code></h1>
-<p><strong>Description (EN):</strong> This table represents damages reported to staff. In the database's inheritance architecture, it acts as a direct sub-type of the <a href="../farm_damage/"><code>farm_damage</code></a> table. It does not store redundant descriptive columns; instead, it uses a shared primary key to inherit all high-level attributes (such as name, location, management type, and geometry) from its parent <code>damage</code> record.</p>
+<p><strong>Description (EN):</strong> This table represents damages reported to farm staff. In the database's inheritance architecture, it acts as a direct sub-type of the <a href="../farm_damage/"><code>farm_damage</code></a> table, which is itself a sub-type of <a href="../damage/"><code>damage</code></a>. It does not store redundant descriptive columns; instead, it uses a shared primary key to inherit all high-level attributes (such as description, dates, location and geometry) from its parent <code>damage</code> record.</p>
 <h2 id="column-structure">Column Structure</h2>
 <table>
 <thead>
@@ -2793,11 +2793,11 @@
 <td style="text-align: left;"><code>42</code></td>
 <td style="text-align: left;">PK, FK</td>
 <td style="text-align: left;">No</td>
-<td style="text-align: left;">Primary key that also acts as a Foreign Key referencing <code>damage.id</code></td>
+<td style="text-align: left;">Primary key that also acts as a Foreign Key referencing <code>farm_damage.id</code> (and, in turn, <code>damage.id</code>)</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>duration_of_absence</code></td>
-<td style="text-align: left;">BIGINT</td>
+<td style="text-align: left;">INTEGER</td>
 <td style="text-align: left;">[...]</td>
 <td style="text-align: left;">[...]</td>
 <td style="text-align: left;">-</td>
@@ -2805,8 +2805,8 @@
 <td style="text-align: left;">-</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>number_of_absence</code></td>
-<td style="text-align: left;">BIGINT</td>
+<td style="text-align: left;"><code>number_of_absent</code></td>
+<td style="text-align: left;">INTEGER</td>
 <td style="text-align: left;">[...]</td>
 <td style="text-align: left;">[...]</td>
 <td style="text-align: left;">-</td>
@@ -2815,7 +2815,7 @@
 </tr>
 <tr>
 <td style="text-align: left;"><code>number_of_dead</code></td>
-<td style="text-align: left;">BIGINT</td>
+<td style="text-align: left;">INTEGER</td>
 <td style="text-align: left;">[...]</td>
 <td style="text-align: left;">[...]</td>
 <td style="text-align: left;">-</td>
@@ -2824,7 +2824,7 @@
 </tr>
 <tr>
 <td style="text-align: left;"><code>number_of_injured</code></td>
-<td style="text-align: left;">BIGINT</td>
+<td style="text-align: left;">INTEGER</td>
 <td style="text-align: left;">[...]</td>
 <td style="text-align: left;">[...]</td>
 <td style="text-align: left;">-</td>
@@ -2851,7 +2851,7 @@
 </tr>
 <tr>
 <td style="text-align: left;"><code>number_of_missing</code></td>
-<td style="text-align: left;">BIGINT</td>
+<td style="text-align: left;">INTEGER</td>
 <td style="text-align: left;">[...]</td>
 <td style="text-align: left;">[...]</td>
 <td style="text-align: left;">-</td>
@@ -2862,21 +2862,21 @@
 </table>
 <h2 id="relationships">Relationships</h2>
 <ul>
-<li><strong>Inherits from (Sub-type of):</strong> <a href="../damage/"><code>damage</code></a> and on turn <a href="../farm_damage/"><code>farm_damage</code></a>. The <code>damage_staff</code> table is a specialized extension of the <code>damage</code> table.</li>
+<li><strong>Inherits from (Sub-type of):</strong> <a href="../farm_damage/"><code>farm_damage</code></a>, which in turn inherits from <a href="../damage/"><code>damage</code></a>. The <code>damage_staff</code> table is a specialized extension of the <code>farm_damage</code> table.</li>
 <li><strong>Affects:</strong> <a href="../component/"><code>component</code></a> (One or more damages affect a component or its subclasses)</li>
 <li><strong>Is reported by:</strong> <a href="../survey/"><code>survey</code></a> (One or more damages is reported in a survey)</li>
 <li><strong>Reported in:</strong> <a href="../attachment/"><code>attachment</code></a> (A damage is reported in one or more attachments)</li>
 <li><strong>Results in:</strong> <a href="../economic_loss/"><code>economic_loss</code></a></li>
 </ul>
 <p>!!! tip "Where is the rest of the data?"
-    To find the name, geographical location (<code>geometry</code>, <code>town</code>, <code>country</code>), or other details of a damage to staff, you must join this table with the <code>damage</code> record that shares the exact same <code>id</code>.</p>
+    To find the description, dates, geographical location (<code>geometry</code>, <code>town</code>, <code>country</code>), or other details of a damage to staff, you must join this table with the <code>damage</code> record that shares the exact same <code>id</code>.</p>
 <h2 id="example-query">Example Query</h2>
 <p>Retrieve a list of all damages to staff, including their descriptions, towns, and spatial coordinates, by joining the table with its parent <code>damage</code> entity:</p>
 <div class="highlight"><pre><span></span><code><span class="k">SELECT</span>
 <span class="w">    </span><span class="n">ds</span><span class="p">.</span><span class="o">*</span><span class="p">,</span>
 <span class="w">    </span><span class="n">d</span><span class="p">.</span><span class="o">*</span>
 <span class="k">FROM</span><span class="w"> </span>
-<span class="w">    </span><span class="n">damage_staff</span><span class="w"> </span><span class="n">ds</span><span class="w"> </span><span class="k">join</span><span class="w"> </span><span class="n">damage</span><span class="w"> </span><span class="n">d</span><span class="w"> </span><span class="k">on</span><span class="w"> </span><span class="n">ds</span><span class="p">.</span><span class="n">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">d</span><span class="p">.</span><span class="n">id</span>
+<span class="w">    </span><span class="n">damage_staff</span><span class="w"> </span><span class="n">ds</span><span class="w"> </span><span class="k">JOIN</span><span class="w"> </span><span class="n">damage</span><span class="w"> </span><span class="n">d</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="n">ds</span><span class="p">.</span><span class="n">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">d</span><span class="p">.</span><span class="n">id</span><span class="p">;</span>
 </code></pre></div>
 
 

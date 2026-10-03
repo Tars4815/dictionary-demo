@@ -2800,7 +2800,7 @@
 <h2 id="relationships">Relationships</h2>
 <ul>
 <li><strong>Inherits from (Sub-type of):</strong> <a href="../enterprise/"><code>enterprise</code></a>. The <code>network_system</code> table is a specialized extension of the <code>enterprise</code> table.</li>
-<li><strong>Has Sub-types (Inheritance):</strong> The following tables inherit from <code>enterprise</code> and share its <code>id</code>:<ul>
+<li><strong>Has Sub-types (Inheritance):</strong> The following tables inherit from <code>network_system</code> (and, through it, from <code>enterprise</code>) and share its <code>id</code>:<ul>
 <li><a href="../electrical_system/"><code>electrical_system</code></a></li>
 <li><a href="../tlc_system/"><code>tlc_system</code></a></li>
 <li><a href="../transport_system/"><code>transport_system</code></a></li>
@@ -2815,20 +2815,19 @@
 </li>
 </ul>
 <p>!!! tip "Where is the rest of the data?"
-    To find the name, geographical location (<code>geometry</code>, <code>town</code>, <code>country</code>), or ownership details of a network system, you must join this table with the <code>enterprise</code> record that shares the exact same <code>id</code>.</p>
+    To find the name, geographical location (<code>geometry</code>, <code>town</code>, <code>country</code>), or other details of a network system, you must join this table with the <code>enterprise</code> record that shares the exact same <code>id</code>.</p>
 <h2 id="example-query">Example Query</h2>
 <p>Retrieve a list of all network systems, including their names, towns, and spatial coordinates, by joining the table with its parent <code>enterprise</code> entity:</p>
 <div class="highlight"><pre><span></span><code><span class="k">SELECT</span><span class="w"> </span>
 <span class="w">    </span><span class="n">n</span><span class="p">.</span><span class="n">id</span><span class="p">,</span><span class="w"> </span>
 <span class="w">    </span><span class="n">e</span><span class="p">.</span><span class="n">name</span><span class="p">,</span><span class="w"> </span>
 <span class="w">    </span><span class="n">e</span><span class="p">.</span><span class="n">town</span><span class="p">,</span><span class="w"> </span>
+<span class="w">    </span><span class="n">e</span><span class="p">.</span><span class="k">type</span><span class="p">,</span>
 <span class="w">    </span><span class="n">ST_AsText</span><span class="p">(</span><span class="n">e</span><span class="p">.</span><span class="n">geometry</span><span class="p">)</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="n">coordinates</span><span class="w"> </span>
 <span class="k">FROM</span><span class="w"> </span>
 <span class="w">    </span><span class="n">network_system</span><span class="w"> </span><span class="n">n</span>
 <span class="k">JOIN</span><span class="w"> </span>
-<span class="w">    </span><span class="n">enterprise</span><span class="w"> </span><span class="n">e</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="n">n</span><span class="p">.</span><span class="n">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">e</span><span class="p">.</span><span class="n">id</span>
-<span class="k">WHERE</span><span class="w"> </span>
-<span class="w">    </span><span class="n">e</span><span class="p">.</span><span class="k">type</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'NETWORK_SYSTEM'</span><span class="p">;</span>
+<span class="w">    </span><span class="n">enterprise</span><span class="w"> </span><span class="n">e</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="n">n</span><span class="p">.</span><span class="n">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">e</span><span class="p">.</span><span class="n">id</span><span class="p">;</span>
 </code></pre></div>
 
 

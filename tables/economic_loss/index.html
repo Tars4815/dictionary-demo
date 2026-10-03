@@ -2628,6 +2628,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#example-query" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Query
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2727,6 +2738,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#example-query" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Query
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2745,7 +2767,7 @@
 
 
 <h1 id="table-economic_loss">Table: <code>economic_loss</code></h1>
-<p><strong>Description (EN):</strong> This table stores the information and details related to a specific damage assessement survey conducted following a major event.</p>
+<p><strong>Description (EN):</strong> This table stores the costs associated with a reported damage: the estimated, approved and final amounts.</p>
 <h2 id="column-structure">Column Structure</h2>
 <table>
 <thead>
@@ -2763,7 +2785,7 @@
 <tr>
 <td style="text-align: left;"><code>id</code></td>
 <td style="text-align: left;">BIGINT</td>
-<td style="text-align: left;">Unique identifier for the survey</td>
+<td style="text-align: left;">Unique identifier for the economic loss record</td>
 <td style="text-align: left;"><code>3</code></td>
 <td style="text-align: left;">PK</td>
 <td style="text-align: left;">No</td>
@@ -2780,7 +2802,7 @@
 </tr>
 <tr>
 <td style="text-align: left;"><code>approved_cost</code></td>
-<td style="text-align: left;">BIGINT</td>
+<td style="text-align: left;">DOUBLE PRECISION</td>
 <td style="text-align: left;">[...]</td>
 <td style="text-align: left;">-</td>
 <td style="text-align: left;">-</td>
@@ -2789,7 +2811,7 @@
 </tr>
 <tr>
 <td style="text-align: left;"><code>estimated_cost</code></td>
-<td style="text-align: left;">BIGINT</td>
+<td style="text-align: left;">DOUBLE PRECISION</td>
 <td style="text-align: left;">[...]</td>
 <td style="text-align: left;">-</td>
 <td style="text-align: left;">-</td>
@@ -2798,7 +2820,7 @@
 </tr>
 <tr>
 <td style="text-align: left;"><code>final_cost</code></td>
-<td style="text-align: left;">BIGINT</td>
+<td style="text-align: left;">DOUBLE PRECISION</td>
 <td style="text-align: left;">[...]</td>
 <td style="text-align: left;">-</td>
 <td style="text-align: left;">-</td>
@@ -2807,7 +2829,7 @@
 </tr>
 <tr>
 <td style="text-align: left;"><code>type_of_cost</code></td>
-<td style="text-align: left;">BIGINT</td>
+<td style="text-align: left;">VARCHAR</td>
 <td style="text-align: left;">[...]</td>
 <td style="text-align: left;">-</td>
 <td style="text-align: left;">-</td>
@@ -2818,8 +2840,21 @@
 </table>
 <h2 id="relationships">Relationships</h2>
 <ul>
-<li><strong>Is the result of</strong> <a href="../damage/"><code>damage</code></a></li>
+<li><strong>Refers to:</strong> <a href="../damage/"><code>damage</code></a> through <code>damage_id</code>. The economic loss is the monetary result of a reported damage.</li>
 </ul>
+<h2 id="example-query">Example Query</h2>
+<p>Retrieve the costs recorded for each damage:</p>
+<div class="highlight"><pre><span></span><code><span class="k">SELECT</span><span class="w"> </span>
+<span class="w">    </span><span class="n">d</span><span class="p">.</span><span class="n">id</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">damage_id</span><span class="p">,</span><span class="w"> </span>
+<span class="w">    </span><span class="n">el</span><span class="p">.</span><span class="n">type_of_cost</span><span class="p">,</span><span class="w"> </span>
+<span class="w">    </span><span class="n">el</span><span class="p">.</span><span class="n">estimated_cost</span><span class="p">,</span><span class="w"> </span>
+<span class="w">    </span><span class="n">el</span><span class="p">.</span><span class="n">approved_cost</span><span class="p">,</span><span class="w"> </span>
+<span class="w">    </span><span class="n">el</span><span class="p">.</span><span class="n">final_cost</span><span class="w"> </span>
+<span class="k">FROM</span><span class="w"> </span>
+<span class="w">    </span><span class="n">economic_loss</span><span class="w"> </span><span class="n">el</span>
+<span class="k">JOIN</span><span class="w"> </span>
+<span class="w">    </span><span class="n">damage</span><span class="w"> </span><span class="n">d</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="n">el</span><span class="p">.</span><span class="n">damage_id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">d</span><span class="p">.</span><span class="n">id</span><span class="p">;</span>
+</code></pre></div>
 
 
 

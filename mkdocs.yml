@@ -96,4 +96,5 @@ nav:
           - Damage to staff: tables/damage_staff.md
       - Economic loss: tables/economic_loss.md
   - Contribution Guidelines: guidelines.md
+  - GUI terminology: backend-to-gui.md
 

@@ -1,4 +1,4 @@
-# Table: `network_service`
+# Table: `product`
 
 **Description (EN):** This table represents business products. In the database's inheritance architecture, it acts as a direct sub-type of the [`component`](component.md) table. It does not store redundant descriptive columns; instead, it uses a shared primary key to inherit all high-level attributes (such as name, location, management type, and geometry) from its parent `component` record.
 

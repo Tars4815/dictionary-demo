@@ -10,6 +10,8 @@ theme:
 
 plugins:
   - search
+  - to-pdf:
+      author: Federica Gaspari
   - i18n:
       docs_structure: suffix # Indica che userai file come nome.en.md
       languages:
@@ -32,69 +34,68 @@ nav:
   - Home: index.md
   - Overview of the schema (ER): schema_er.md
   - Data Dictionary:
-    - Entities and relationships:
-      - Enterprise and subclasses:
-        - Enterprise: tables/enterprise.md
-        - Building: tables/building.md
-        - Business: tables/business.md
-        - Farm: tables/farm.md
-        - Network Systems and sub-types: 
-          - Network Systems: tables/network_system.md
-          - Electrical network: tables/electrical_system.md
-          - Transport network: tables/transport_system.md
-          - Telecommunication network: tables/tlc_system.md
-      - Owner: tables/owner.md
-      - Components and subclasses:
-        - Component: tables/component.md
-        - Added block: tables/added_block.md
-        - Artistic good: tables/artistic_good.md
-        - Agriculture subclasses:
-          - Agriculture product: tables/agriculture_product.md
-          - Crop: tables/crop.md
-          - Stored: tables/stored.md
-        - Building functionality: tables/building_functionality.md
-        - Building component: tables/building_component.md
-        - Business operations: tables/business_operations.md
-        - Electrical component: tables/electrical_network_component.md
-        - Fixed assets subclasses:
-          - Fixed asset: tables/fixed_asset.md
-          - Infrastructure: tables/infrastructure.md
-          - Land: tables/land.md
-          - Machinery: tables/machinery.md
-          - Material: tables/material.md
-        - Livestock: tables/livestock.md
-        - Network service: tables/network_service.md
-        - Product: tables/product.md
-        - Provision: tables/provision.md
-        - Staff: tables/staff.md
-        - Transport network component: tables/transport_network_component.md
-        - Telecommunication network component: tables/tlc_network_component.md
-      - Attachment: tables/attachment.md
-      - Survey: tables/survey.md
-      - Event: tables/event.md
-      - Damage and subclasses: 
-        - Damage: tables/damage.md
-        - Damage to artistic good: tables/damage_artistic_good.md
-        - Damage to building functionality: tables/damage_building_functionality.md
-        - Non-structural damage to buildings: tables/damage_building_not_structural.md
-        - Structural damage to buildings: tables/damage_building_structural.md
-        - Damage to business operations: tables/damage_business_operations.md
-        - Damage to church structure: tables/damage_church_structure.md
-        - Damage to goods: tables/damage_goods.md
-        - Damage to network components: tables/damage_network_component.md
-        - Damage to network services: tables/damage_network_service.md
-        - Damage to people: tables/damage_people.md
-        - Damage to products: tables/damage_product.md
-        - Damage to vehicles: tables/damage_vehicles.md
-        - Damage to whole structure: tables/damage_whole_structure.md
-        - Damage to farm and subclasses:
-          - Damage to farm: tables/farm_damage.md
-          - Damage to agriculture product: tables/damage_agriculture_product.md
-          - Damage to fixed asset: tables/damage_fixed_asset.md
-          - Damage to livestock: tables/damage_livestock.md 
-          - Damage to provision: tables/damage_provision.md
-          - Damage to staff: tables/damage_staff.md
-      - Economic loss: tables/economic_loss.md
+      - Entities and relationships:
+          - Enterprise and subclasses:
+              - Enterprise: tables/enterprise.md
+              - Building: tables/building.md
+              - Business: tables/business.md
+              - Farm: tables/farm.md
+              - Network Systems and sub-types:
+                  - Network Systems: tables/network_system.md
+                  - Electrical network: tables/electrical_system.md
+                  - Transport network: tables/transport_system.md
+                  - Telecommunication network: tables/tlc_system.md
+          - Owner: tables/owner.md
+          - Components and subclasses:
+              - Component: tables/component.md
+              - Added block: tables/added_block.md
+              - Artistic good: tables/artistic_good.md
+              - Agriculture subclasses:
+                  - Agriculture product: tables/agriculture_product.md
+                  - Crop: tables/crop.md
+                  - Stored: tables/stored.md
+              - Building functionality: tables/building_functionality.md
+              - Building component: tables/building_component.md
+              - Business operations: tables/business_operations.md
+              - Electrical component: tables/electrical_network_component.md
+              - Fixed assets subclasses:
+                  - Fixed asset: tables/fixed_asset.md
+                  - Infrastructure: tables/infrastructure.md
+                  - Land: tables/land.md
+                  - Machinery: tables/machinery.md
+                  - Material: tables/material.md
+              - Livestock: tables/livestock.md
+              - Network service: tables/network_service.md
+              - Product: tables/product.md
+              - Provision: tables/provision.md
+              - Staff: tables/staff.md
+              - Transport network component: tables/transport_network_component.md
+              - Telecommunication network component: tables/tlc_network_component.md
+          - Attachment: tables/attachment.md
+          - Survey: tables/survey.md
+          - Event: tables/event.md
+          - Damage and subclasses:
+              - Damage: tables/damage.md
+              - Damage to artistic good: tables/damage_artistic_good.md
+              - Damage to building functionality: tables/damage_building_functionality.md
+              - Non-structural damage to buildings: tables/damage_building_not_structural.md
+              - Structural damage to buildings: tables/damage_building_structural.md
+              - Damage to business operations: tables/damage_business_operations.md
+              - Damage to church structure: tables/damage_church_structure.md
+              - Damage to goods: tables/damage_goods.md
+              - Damage to network components: tables/damage_network_component.md
+              - Damage to network services: tables/damage_network_service.md
+              - Damage to people: tables/damage_people.md
+              - Damage to products: tables/damage_product.md
+              - Damage to vehicles: tables/damage_vehicles.md
+              - Damage to whole structure: tables/damage_whole_structure.md
+              - Damage to farm and subclasses:
+                  - Damage to farm: tables/farm_damage.md
+                  - Damage to agriculture product: tables/damage_agriculture_product.md
+                  - Damage to fixed asset: tables/damage_fixed_asset.md
+                  - Damage to livestock: tables/damage_livestock.md
+                  - Damage to provision: tables/damage_provision.md
+                  - Damage to staff: tables/damage_staff.md
+          - Economic loss: tables/economic_loss.md
   - Contribution Guidelines: guidelines.md
   - GUI terminology: backend-to-gui.md
-

@@ -70,7 +70,7 @@ erDiagram
     EVENT ||--o{ EVENT : linked
     DAMAGE ||--o{ ECONOMIC_LOSS : has
     OWNER ||--o{ ENTERPRISE_OWNER : owns
-    ENTERPRISE ||--o{ ENTERPRISE_OWNER : is owned
+    ENTERPRISE ||--o{ ENTERPRISE_OWNER : is_owned
 
 ```
 

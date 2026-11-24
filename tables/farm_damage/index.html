@@ -8,9 +8,12 @@
 <link href="../damage_whole_structure/" rel="prev"/>
 <link href="../damage_agriculture_product/" rel="next"/>
 <link href="../../it/tables/farm_damage/" hreflang="it" rel="alternate"/>
+<link href="../../fr/tables/farm_damage/" hreflang="fr" rel="alternate"/>
+<link href="../../pt/tables/farm_damage/" hreflang="pt" rel="alternate"/>
+<link href="../../de/tables/farm_damage/" hreflang="de" rel="alternate"/>
 <link href="./" hreflang="en" rel="alternate"/>
 <link href="../../assets/images/favicon.png" rel="icon"/>
-<meta content="mkdocs-1.6.1, mkdocs-material-9.8.1" name="generator"/>
+<meta content="mkdocs-1.6.1, mkdocs-material-9.8.2" name="generator"/>
 <title>Damage to farm - Project Data Dictionary</title>
 <link href="../../assets/stylesheets/main.57a0d79d.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -64,6 +67,21 @@
 <li class="md-select__item">
 <a class="md-select__link" href="../../it/tables/farm_damage/" hreflang="it">
               Italiano
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="../../fr/tables/farm_damage/" hreflang="fr">
+              Français
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="../../pt/tables/farm_damage/" hreflang="pt">
+              Português
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="../../de/tables/farm_damage/" hreflang="de">
+              Deutsch
             </a>
 </li>
 <li class="md-select__item">
@@ -1274,8 +1292,10 @@
 </ul>
 </li>
 </ul>
-<p>!!! tip "Where is the rest of the data?"
-    To find the description, dates, geographical location (<code>geometry</code>, <code>town</code>, <code>country</code>), or other details of a damage to farms, you must join this table with the <code>damage</code> record that shares the exact same <code>id</code>.</p>
+<div class="admonition tip">
+<p class="admonition-title">Where is the rest of the data?</p>
+<p>To find the description, dates, geographical location (<code>geometry</code>, <code>town</code>, <code>country</code>), or other details of a damage to farms, you must join this table with the <code>damage</code> record that shares the exact same <code>id</code>.</p>
+</div>
 <h2 id="example-query">Example Query</h2>
 <p>Retrieve a list of all damages to farms, including their descriptions, towns, and spatial coordinates, by joining the table with its parent <code>damage</code> entity:</p>
 <div class="highlight"><pre><span></span><code><span class="k">SELECT</span>

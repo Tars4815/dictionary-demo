@@ -8,9 +8,12 @@
 <link href="../livestock/" rel="prev"/>
 <link href="../product/" rel="next"/>
 <link href="../../it/tables/network_service/" hreflang="it" rel="alternate"/>
+<link href="../../fr/tables/network_service/" hreflang="fr" rel="alternate"/>
+<link href="../../pt/tables/network_service/" hreflang="pt" rel="alternate"/>
+<link href="../../de/tables/network_service/" hreflang="de" rel="alternate"/>
 <link href="./" hreflang="en" rel="alternate"/>
 <link href="../../assets/images/favicon.png" rel="icon"/>
-<meta content="mkdocs-1.6.1, mkdocs-material-9.8.1" name="generator"/>
+<meta content="mkdocs-1.6.1, mkdocs-material-9.8.2" name="generator"/>
 <title>Network service - Project Data Dictionary</title>
 <link href="../../assets/stylesheets/main.57a0d79d.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -64,6 +67,21 @@
 <li class="md-select__item">
 <a class="md-select__link" href="../../it/tables/network_service/" hreflang="it">
               Italiano
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="../../fr/tables/network_service/" hreflang="fr">
+              Français
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="../../pt/tables/network_service/" hreflang="pt">
+              Português
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="../../de/tables/network_service/" hreflang="de">
+              Deutsch
             </a>
 </li>
 <li class="md-select__item">
@@ -1291,8 +1309,10 @@
 <li><strong>Belongs to:</strong> <a href="../enterprise/"><code>enterprise</code></a> (A component sub-type is linked to one enterprise)</li>
 <li><strong>Has many:</strong> <code>damage</code> (A component sub-type can be affected by multiple damage over time)</li>
 </ul>
-<p>!!! tip "Where is the rest of the data?"
-    To find the name, geographical location (<code>geometry</code>, <code>town</code>, <code>country</code>), or ownership details of a network_service, you must join this table with the <code>component</code> record that shares the exact same <code>id</code>.</p>
+<div class="admonition tip">
+<p class="admonition-title">Where is the rest of the data?</p>
+<p>To find the name, geographical location (<code>geometry</code>, <code>town</code>, <code>country</code>), or ownership details of a network_service, you must join this table with the <code>component</code> record that shares the exact same <code>id</code>.</p>
+</div>
 <h2 id="example-query">Example Query</h2>
 <p>Retrieve a list of all network services, including their names, towns, and spatial coordinates, by joining the table with its parent <code>component</code> entity:</p>
 <div class="highlight"><pre><span></span><code><span class="k">SELECT</span><span class="w"> </span>

@@ -8,9 +8,12 @@
 <link href="../enterprise/" rel="prev"/>
 <link href="../business/" rel="next"/>
 <link href="../../it/tables/building/" hreflang="it" rel="alternate"/>
+<link href="../../fr/tables/building/" hreflang="fr" rel="alternate"/>
+<link href="../../pt/tables/building/" hreflang="pt" rel="alternate"/>
+<link href="../../de/tables/building/" hreflang="de" rel="alternate"/>
 <link href="./" hreflang="en" rel="alternate"/>
 <link href="../../assets/images/favicon.png" rel="icon"/>
-<meta content="mkdocs-1.6.1, mkdocs-material-9.8.1" name="generator"/>
+<meta content="mkdocs-1.6.1, mkdocs-material-9.8.2" name="generator"/>
 <title>Building - Project Data Dictionary</title>
 <link href="../../assets/stylesheets/main.57a0d79d.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -64,6 +67,21 @@
 <li class="md-select__item">
 <a class="md-select__link" href="../../it/tables/building/" hreflang="it">
               Italiano
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="../../fr/tables/building/" hreflang="fr">
+              Français
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="../../pt/tables/building/" hreflang="pt">
+              Português
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="../../de/tables/building/" hreflang="de">
+              Deutsch
             </a>
 </li>
 <li class="md-select__item">
@@ -1269,8 +1287,10 @@
 </ul>
 </li>
 </ul>
-<p>!!! tip "Where is the rest of the data?"
-    To find the name, geographical location (<code>geometry</code>, <code>town</code>, <code>country</code>), or VAT of a building, you must join this table with the <code>enterprise</code> record that shares the exact same <code>id</code>. The structural and economic characteristics are in <code>building_component</code>, which is linked to the building through <code>component.enterprise_id</code>.</p>
+<div class="admonition tip">
+<p class="admonition-title">Where is the rest of the data?</p>
+<p>To find the name, geographical location (<code>geometry</code>, <code>town</code>, <code>country</code>), or VAT of a building, you must join this table with the <code>enterprise</code> record that shares the exact same <code>id</code>. The structural and economic characteristics are in <code>building_component</code>, which is linked to the building through <code>component.enterprise_id</code>.</p>
+</div>
 <h2 id="example-query">Example Query</h2>
 <p>Retrieve the characteristics of each building by joining its enterprise record with its building components:</p>
 <div class="highlight"><pre><span></span><code><span class="k">SELECT</span>

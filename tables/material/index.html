@@ -1251,6 +1251,10 @@
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
 <h1 id="table-material">Table: <code>material</code></h1>
+<div class="admonition info">
+<p class="admonition-title">Different name in the web-app (GUI)</p>
+<p>In the PostgreSQL backend, this table is named <code>material</code>, as shown in the page title. In the web-app interface it appears as <strong>Stocks - Stored inputs</strong>. All aliases are listed in the <a href="../../backend-to-gui/">correspondence table</a>.</p>
+</div>
 <p><strong>Description (EN):</strong> This table represents material. In the database's inheritance architecture, it acts as a direct sub-type of the <a href="../fixed_asset/"><code>fixed_asset</code></a> table. It does not store redundant descriptive columns; instead, it uses a shared primary key to inherit all high-level attributes (such as name, location, management type, and geometry) from its parent <code>component</code> record.</p>
 <h2 id="column-structure">Column Structure</h2>
 <table>

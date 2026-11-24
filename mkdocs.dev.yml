@@ -1,0 +1,386 @@
+site_name: Project Data Dictionary
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs # Crea tab in alto per le sezioni principali
+    - navigation.sections # Raggruppa le voci nel menu laterale
+    - search.suggest # Suggerimenti durante la ricerca
+    - content.code.copy # Permette di copiare query di esempio
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix # Indica che userai file come nome.en.md
+      languages:
+        - locale: it
+          name: Italiano
+          build: true
+          nav_translations:
+            "Home": "Home"
+            "Overview of the schema (ER)": "Panoramica dello schema (ER)"
+            "Data Dictionary": "Dizionario dei dati"
+            "Entities and relationships": "Entità e relazioni"
+            "Enterprise and subclasses": "Impresa e sottoclassi"
+            "Enterprise": "Impresa"
+            "Building": "Edificio"
+            "Business": "Attività commerciale"
+            "Farm": "Azienda agricola"
+            "Network Systems and sub-types": "Sistemi di rete e sottotipi"
+            "Network Systems": "Sistemi di rete"
+            "Electrical network": "Rete elettrica"
+            "Transport network": "Rete di trasporto"
+            "Telecommunication network": "Rete di telecomunicazione"
+            "Owner": "Proprietario"
+            "Components and subclasses": "Componenti e sottoclassi"
+            "Component": "Componente"
+            "Added block": "Corpo aggiunto"
+            "Artistic good": "Bene artistico"
+            "Agriculture subclasses": "Sottoclassi agricole"
+            "Agriculture product": "Prodotto agricolo"
+            "Crop": "Coltura"
+            "Stored": "Prodotto stoccato"
+            "Building functionality": "Funzionalità dell'edificio"
+            "Building component": "Componente edilizia"
+            "Business operations": "Operatività aziendale"
+            "Electrical component": "Componente elettrica"
+            "Fixed assets subclasses": "Sottoclassi di beni immobilizzati"
+            "Fixed asset": "Bene immobilizzato"
+            "Infrastructure": "Infrastruttura"
+            "Land": "Terreno"
+            "Machinery": "Macchinari"
+            "Material": "Materiale"
+            "Livestock": "Bestiame"
+            "Network service": "Servizio di rete"
+            "Product": "Prodotto"
+            "Provision": "Scorta"
+            "Staff": "Personale"
+            "Transport network component": "Componente della rete di trasporto"
+            "Telecommunication network component": "Componente della rete di telecomunicazione"
+            "Attachment": "Allegato"
+            "Survey": "Rilevazione"
+            "Event": "Evento"
+            "Damage and subclasses": "Danno e sottoclassi"
+            "Damage": "Danno"
+            "Damage to artistic good": "Danno al bene artistico"
+            "Damage to building functionality": "Danno alla funzionalità dell'edificio"
+            "Non-structural damage to buildings": "Danno non strutturale agli edifici"
+            "Structural damage to buildings": "Danno strutturale agli edifici"
+            "Damage to business operations": "Danno all'operatività aziendale"
+            "Damage to church structure": "Danno alla struttura ecclesiastica"
+            "Damage to goods": "Danno ai beni"
+            "Damage to network components": "Danno alle componenti di rete"
+            "Damage to network services": "Danno ai servizi di rete"
+            "Damage to people": "Danno alle persone"
+            "Damage to products": "Danno ai prodotti"
+            "Damage to vehicles": "Danno ai veicoli"
+            "Damage to whole structure": "Danno all'intera struttura"
+            "Damage to farm and subclasses": "Danno all'azienda agricola e sottoclassi"
+            "Damage to farm": "Danno all'azienda agricola"
+            "Damage to agriculture product": "Danno al prodotto agricolo"
+            "Damage to fixed asset": "Danno al bene immobilizzato"
+            "Damage to livestock": "Danno al bestiame"
+            "Damage to provision": "Danno alle scorte"
+            "Damage to staff": "Danno al personale"
+            "Economic loss": "Perdita economica"
+            "Contribution Guidelines": "Linee guida per i contributi"
+            "GUI terminology": "Terminologia dell'interfaccia (GUI)"
+        - locale: fr
+          name: Français
+          build: true
+          nav_translations:
+            "Home": "Accueil"
+            "Overview of the schema (ER)": "Vue d'ensemble du schéma (ER)"
+            "Data Dictionary": "Dictionnaire de données"
+            "Entities and relationships": "Entités et relations"
+            "Enterprise and subclasses": "Entreprise et sous-classes"
+            "Enterprise": "Entreprise"
+            "Building": "Bâtiment"
+            "Business": "Activité commerciale"
+            "Farm": "Exploitation agricole"
+            "Network Systems and sub-types": "Systèmes de réseau et sous-types"
+            "Network Systems": "Systèmes de réseau"
+            "Electrical network": "Réseau électrique"
+            "Transport network": "Réseau de transport"
+            "Telecommunication network": "Réseau de télécommunication"
+            "Owner": "Propriétaire"
+            "Components and subclasses": "Composants et sous-classes"
+            "Component": "Composant"
+            "Added block": "Annexe"
+            "Artistic good": "Bien artistique"
+            "Agriculture subclasses": "Sous-classes agricoles"
+            "Agriculture product": "Produit agricole"
+            "Crop": "Culture"
+            "Stored": "Produit stocké"
+            "Building functionality": "Fonctionnalité du bâtiment"
+            "Building component": "Composant du bâtiment"
+            "Business operations": "Activité opérationnelle"
+            "Electrical component": "Composant électrique"
+            "Fixed assets subclasses": "Sous-classes d'immobilisations"
+            "Fixed asset": "Immobilisation"
+            "Infrastructure": "Infrastructure"
+            "Land": "Terrain"
+            "Machinery": "Machines"
+            "Material": "Matériel"
+            "Livestock": "Cheptel"
+            "Network service": "Service de réseau"
+            "Product": "Produit"
+            "Provision": "Stock"
+            "Staff": "Personnel"
+            "Transport network component": "Composant du réseau de transport"
+            "Telecommunication network component": "Composant du réseau de télécommunication"
+            "Attachment": "Pièce jointe"
+            "Survey": "Relevé"
+            "Event": "Événement"
+            "Damage and subclasses": "Dommage et sous-classes"
+            "Damage": "Dommage"
+            "Damage to artistic good": "Dommage au bien artistique"
+            "Damage to building functionality": "Dommage à la fonctionnalité du bâtiment"
+            "Non-structural damage to buildings": "Dommage non structurel aux bâtiments"
+            "Structural damage to buildings": "Dommage structurel aux bâtiments"
+            "Damage to business operations": "Dommage à l'activité opérationnelle"
+            "Damage to church structure": "Dommage à la structure d'église"
+            "Damage to goods": "Dommage aux biens"
+            "Damage to network components": "Dommage aux composants du réseau"
+            "Damage to network services": "Dommage aux services de réseau"
+            "Damage to people": "Dommage aux personnes"
+            "Damage to products": "Dommage aux produits"
+            "Damage to vehicles": "Dommage aux véhicules"
+            "Damage to whole structure": "Dommage à la structure entière"
+            "Damage to farm and subclasses": "Dommage à l'exploitation agricole et sous-classes"
+            "Damage to farm": "Dommage à l'exploitation agricole"
+            "Damage to agriculture product": "Dommage au produit agricole"
+            "Damage to fixed asset": "Dommage à l'immobilisation"
+            "Damage to livestock": "Dommage au cheptel"
+            "Damage to provision": "Dommage au stock"
+            "Damage to staff": "Dommage au personnel"
+            "Economic loss": "Perte économique"
+            "Contribution Guidelines": "Directives de contribution"
+            "GUI terminology": "Terminologie de l'interface (GUI)"
+        - locale: pt
+          name: Português
+          build: true
+          nav_translations:
+            "Home": "Início"
+            "Overview of the schema (ER)": "Visão geral do esquema (ER)"
+            "Data Dictionary": "Dicionário de dados"
+            "Entities and relationships": "Entidades e relações"
+            "Enterprise and subclasses": "Empresa e subclasses"
+            "Enterprise": "Empresa"
+            "Building": "Edifício"
+            "Business": "Atividade comercial"
+            "Farm": "Exploração agrícola"
+            "Network Systems and sub-types": "Sistemas de rede e subtipos"
+            "Network Systems": "Sistemas de rede"
+            "Electrical network": "Rede elétrica"
+            "Transport network": "Rede de transportes"
+            "Telecommunication network": "Rede de telecomunicações"
+            "Owner": "Proprietário"
+            "Components and subclasses": "Componentes e subclasses"
+            "Component": "Componente"
+            "Added block": "Corpo anexo"
+            "Artistic good": "Bem artístico"
+            "Agriculture subclasses": "Subclasses agrícolas"
+            "Agriculture product": "Produto agrícola"
+            "Crop": "Cultura"
+            "Stored": "Produto armazenado"
+            "Building functionality": "Funcionalidade do edifício"
+            "Building component": "Componente do edifício"
+            "Business operations": "Operações da atividade"
+            "Electrical component": "Componente elétrica"
+            "Fixed assets subclasses": "Subclasses de ativos fixos"
+            "Fixed asset": "Ativo fixo"
+            "Infrastructure": "Infraestrutura"
+            "Land": "Terreno"
+            "Machinery": "Maquinaria"
+            "Material": "Material"
+            "Livestock": "Gado"
+            "Network service": "Serviço de rede"
+            "Product": "Produto"
+            "Provision": "Provisão"
+            "Staff": "Pessoal"
+            "Transport network component": "Componente da rede de transportes"
+            "Telecommunication network component": "Componente da rede de telecomunicações"
+            "Attachment": "Anexo"
+            "Survey": "Levantamento"
+            "Event": "Evento"
+            "Damage and subclasses": "Dano e subclasses"
+            "Damage": "Dano"
+            "Damage to artistic good": "Dano ao bem artístico"
+            "Damage to building functionality": "Dano à funcionalidade do edifício"
+            "Non-structural damage to buildings": "Dano não estrutural em edifícios"
+            "Structural damage to buildings": "Dano estrutural em edifícios"
+            "Damage to business operations": "Dano às operações da atividade"
+            "Damage to church structure": "Dano à estrutura da igreja"
+            "Damage to goods": "Dano aos bens"
+            "Damage to network components": "Dano aos componentes da rede"
+            "Damage to network services": "Dano aos serviços de rede"
+            "Damage to people": "Dano a pessoas"
+            "Damage to products": "Dano a produtos"
+            "Damage to vehicles": "Dano a veículos"
+            "Damage to whole structure": "Dano à estrutura completa"
+            "Damage to farm and subclasses": "Dano à exploração agrícola e subclasses"
+            "Damage to farm": "Dano à exploração agrícola"
+            "Damage to agriculture product": "Dano ao produto agrícola"
+            "Damage to fixed asset": "Dano ao ativo fixo"
+            "Damage to livestock": "Dano ao gado"
+            "Damage to provision": "Dano à provisão"
+            "Damage to staff": "Dano ao pessoal"
+            "Economic loss": "Perda económica"
+            "Contribution Guidelines": "Diretrizes de contribuição"
+            "GUI terminology": "Terminologia da interface (GUI)"
+        - locale: de
+          name: Deutsch
+          build: true
+          nav_translations:
+            "Home": "Startseite"
+            "Overview of the schema (ER)": "Schemaübersicht (ER)"
+            "Data Dictionary": "Datenwörterbuch"
+            "Entities and relationships": "Entitäten und Beziehungen"
+            "Enterprise and subclasses": "Unternehmen und Unterklassen"
+            "Enterprise": "Unternehmen"
+            "Building": "Gebäude"
+            "Business": "Gewerbebetrieb"
+            "Farm": "Landwirtschaftlicher Betrieb"
+            "Network Systems and sub-types": "Netzsysteme und Untertypen"
+            "Network Systems": "Netzsysteme"
+            "Electrical network": "Stromnetz"
+            "Transport network": "Verkehrsnetz"
+            "Telecommunication network": "Telekommunikationsnetz"
+            "Owner": "Eigentümer"
+            "Components and subclasses": "Komponenten und Unterklassen"
+            "Component": "Komponente"
+            "Added block": "Anbau"
+            "Artistic good": "Kunstgut"
+            "Agriculture subclasses": "Landwirtschaftliche Unterklassen"
+            "Agriculture product": "Landwirtschaftliches Erzeugnis"
+            "Crop": "Kultur"
+            "Stored": "Gelagertes Erzeugnis"
+            "Building functionality": "Gebäudefunktionalität"
+            "Building component": "Gebäudekomponente"
+            "Business operations": "Geschäftsbetrieb"
+            "Electrical component": "Stromnetzkomponente"
+            "Fixed assets subclasses": "Unterklassen der Anlagegüter"
+            "Fixed asset": "Anlagegut"
+            "Infrastructure": "Infrastruktur"
+            "Land": "Grundstück"
+            "Machinery": "Maschinen"
+            "Material": "Material"
+            "Livestock": "Viehbestand"
+            "Network service": "Netzdienst"
+            "Product": "Produkt"
+            "Provision": "Vorrat"
+            "Staff": "Personal"
+            "Transport network component": "Komponente des Verkehrsnetzes"
+            "Telecommunication network component": "Komponente des Telekommunikationsnetzes"
+            "Attachment": "Anhang"
+            "Survey": "Erhebung"
+            "Event": "Ereignis"
+            "Damage and subclasses": "Schaden und Unterklassen"
+            "Damage": "Schaden"
+            "Damage to artistic good": "Schaden an Kunstgütern"
+            "Damage to building functionality": "Schaden an der Gebäudefunktionalität"
+            "Non-structural damage to buildings": "Nicht struktureller Schaden an Gebäuden"
+            "Structural damage to buildings": "Struktureller Schaden an Gebäuden"
+            "Damage to business operations": "Schaden am Geschäftsbetrieb"
+            "Damage to church structure": "Schaden an Kirchenstrukturen"
+            "Damage to goods": "Schaden an Gütern"
+            "Damage to network components": "Schaden an Netzkomponenten"
+            "Damage to network services": "Schaden an Netzdiensten"
+            "Damage to people": "Schaden an Personen"
+            "Damage to products": "Schaden an Produkten"
+            "Damage to vehicles": "Schaden an Fahrzeugen"
+            "Damage to whole structure": "Schaden an der Gesamtstruktur"
+            "Damage to farm and subclasses": "Schaden am landwirtschaftlichen Betrieb und Unterklassen"
+            "Damage to farm": "Schaden am landwirtschaftlichen Betrieb"
+            "Damage to agriculture product": "Schaden am landwirtschaftlichen Erzeugnis"
+            "Damage to fixed asset": "Schaden am Anlagegut"
+            "Damage to livestock": "Schaden am Viehbestand"
+            "Damage to provision": "Schaden an Vorräten"
+            "Damage to staff": "Schaden am Personal"
+            "Economic loss": "Wirtschaftlicher Verlust"
+            "Contribution Guidelines": "Hinweise zur Mitarbeit"
+            "GUI terminology": "Terminologie der Benutzeroberfläche (GUI)"
+        - locale: en
+          default: true
+          name: English
+          build: true
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - Home: index.md
+  - Overview of the schema (ER): schema_er.md
+  - Data Dictionary:
+      - Entities and relationships:
+          - Enterprise and subclasses:
+              - Enterprise: tables/enterprise.md
+              - Building: tables/building.md
+              - Business: tables/business.md
+              - Farm: tables/farm.md
+              - Network Systems and sub-types:
+                  - Network Systems: tables/network_system.md
+                  - Electrical network: tables/electrical_system.md
+                  - Transport network: tables/transport_system.md
+                  - Telecommunication network: tables/tlc_system.md
+          - Owner: tables/owner.md
+          - Components and subclasses:
+              - Component: tables/component.md
+              - Added block: tables/added_block.md
+              - Artistic good: tables/artistic_good.md
+              - Agriculture subclasses:
+                  - Agriculture product: tables/agriculture_product.md
+                  - Crop: tables/crop.md
+                  - Stored: tables/stored.md
+              - Building functionality: tables/building_functionality.md
+              - Building component: tables/building_component.md
+              - Business operations: tables/business_operations.md
+              - Electrical component: tables/electrical_network_component.md
+              - Fixed assets subclasses:
+                  - Fixed asset: tables/fixed_asset.md
+                  - Infrastructure: tables/infrastructure.md
+                  - Land: tables/land.md
+                  - Machinery: tables/machinery.md
+                  - Material: tables/material.md
+              - Livestock: tables/livestock.md
+              - Network service: tables/network_service.md
+              - Product: tables/product.md
+              - Provision: tables/provision.md
+              - Staff: tables/staff.md
+              - Transport network component: tables/transport_network_component.md
+              - Telecommunication network component: tables/tlc_network_component.md
+          - Attachment: tables/attachment.md
+          - Survey: tables/survey.md
+          - Event: tables/event.md
+          - Damage and subclasses:
+              - Damage: tables/damage.md
+              - Damage to artistic good: tables/damage_artistic_good.md
+              - Damage to building functionality: tables/damage_building_functionality.md
+              - Non-structural damage to buildings: tables/damage_building_not_structural.md
+              - Structural damage to buildings: tables/damage_building_structural.md
+              - Damage to business operations: tables/damage_business_operations.md
+              - Damage to church structure: tables/damage_church_structure.md
+              - Damage to goods: tables/damage_goods.md
+              - Damage to network components: tables/damage_network_component.md
+              - Damage to network services: tables/damage_network_service.md
+              - Damage to people: tables/damage_people.md
+              - Damage to products: tables/damage_product.md
+              - Damage to vehicles: tables/damage_vehicles.md
+              - Damage to whole structure: tables/damage_whole_structure.md
+              - Damage to farm and subclasses:
+                  - Damage to farm: tables/farm_damage.md
+                  - Damage to agriculture product: tables/damage_agriculture_product.md
+                  - Damage to fixed asset: tables/damage_fixed_asset.md
+                  - Damage to livestock: tables/damage_livestock.md
+                  - Damage to provision: tables/damage_provision.md
+                  - Damage to staff: tables/damage_staff.md
+          - Economic loss: tables/economic_loss.md
+  - Contribution Guidelines: guidelines.md
+  - GUI terminology: backend-to-gui.md

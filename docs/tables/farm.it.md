@@ -1,29 +1,30 @@
 # Tabella: `farm`
 
-**Descrizione (IT):** Questa tabella rappresenta le imprese agricole. Nell'architettura di ereditarietà del database, funge da sottotipo diretto della tabella[`enterprise`](enterprise.md). Non memorizza colonne descrittive ridondanti; utilizza invece una chiave primaria condivisa per ereditare tutti gli attributi di alto livello (come nome, posizione, tipo di gestione e geometria) dal suo record `enterprise` genitore.
+!!! warning "Traduzione assistita dall'IA"
+    Questa pagina è stata tradotta con l'assistenza dell'intelligenza artificiale e può contenere imprecisioni. La versione inglese è il riferimento. I nomi delle tabelle e degli attributi sono identici in tutte le lingue perché corrispondono a quelli dell'implementazione PostgreSQL.
+
+**Descrizione (IT):** Questa tabella rappresenta le imprese agricole. Nell'architettura di ereditarietà del database, funge da sottotipo diretto della tabella [`enterprise`](enterprise.md). Non memorizza colonne descrittive ridondanti: usa invece una chiave primaria condivisa per ereditare tutti gli attributi di alto livello (come nome, posizione, tipo di gestione e geometria) dal record genitore `enterprise`.
 
 ## Struttura delle colonne
 
 | Colonna | Tipo di dato | Definizione | Valore di esempio | Vincolo? | Geometria? | Commenti |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| `id` | BIGINT | Identificativo univoco dell'azienda agricola | `42` | PK, FK | No | Chiave primaria che funge anche da Chiave Esterna con riferimento a `enterprise.id` |
+| `id` | BIGINT | Identificativo univoco dell'azienda agricola | `42` | PK, FK | No | Chiave primaria che funge anche da chiave esterna verso `enterprise.id` |
 
 ## Relazioni
 
-* **Eredita da (Sottotipo di):** [`enterprise`](enterprise.md). La tabella `farm` è un'estensione specializzata della tabella `enterprise`.
-* **Contiene:** Pur non essendo collegata direttamente tramite un `farm_id`, un'azienda agricola possiede asset agricoli attraverso la colonna `enterprise_id` nella tabella `component`. Questi componenti includono spesso sottotipi agricoli specializzati come:
-    * `crop` (coltura)
-    * `livestock` (bestiame)
-    * `agriculture_product` (prodotto agricolo)
-    * `structure` (struttura, es. fienili, serre)
-    * `machinery` (macchinari, es. trattori)
+* **Eredita da (sottotipo di):** [`enterprise`](enterprise.md). La tabella `farm` è un'estensione specializzata della tabella `enterprise`.
+* **Contiene:** Pur non essendo collegata direttamente tramite `farm_id`, un'azienda agricola possiede asset agricoli attraverso la colonna `enterprise_id` della tabella `component`. Questi componenti includono spesso sottotipi agricoli specializzati, come:
+    * [`agriculture_product`](agriculture_product.md) e i suoi sottotipi [`crop`](crop.md) e [`stored`](stored.md)
+    * [`livestock`](livestock.md)
+    * [`fixed_asset`](fixed_asset.md) e i suoi sottotipi (ad es. [`machinery`](machinery.md), come i trattori)
 
 !!! tip "Dove si trova il resto dei dati?"
-    Per trovare il nome, la posizione geografica (`geometry`, `town`, `country`) o i dettagli sulla proprietà di un'azienda agricola, devi unire (join) questa tabella con il record `enterprise` che condivide lo stesso identico `id`.
+    Per trovare il nome, la posizione geografica (`geometry`, `town`, `country`) o altri dettagli di un'azienda agricola, devi unire questa tabella con il record `enterprise` che condivide lo stesso `id`.
 
-## Query di Esempio
+## Query di esempio
 
-Recupera un elenco di tutte le aziende agricole, inclusi i loro nomi, città e coordinate spaziali, unendo la tabella con l'entità genitore `enterprise`:
+Recupera un elenco di tutte le aziende agricole, includendo nomi, comuni e coordinate spaziali, unendo la tabella con la sua entità genitore `enterprise`:
 
 ```sql
 SELECT 

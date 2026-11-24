@@ -1,50 +1,48 @@
 # Tabella: `building`
 
-**Descrizione:** Questa tabella memorizza le caratteristiche strutturali, economiche e fisiche degli edifici, inclusi i dettagli di costruzione, i tipi di materiale e le dimensioni spaziali. Gli attributi categorici sono gestiti tramite vincoli CHECK direttamente nella definizione della tabella. Eredita le caratteristiche dell'entità più generica _Enterprise_.
+!!! warning "Traduzione assistita dall'IA"
+    Questa pagina è stata tradotta con l'assistenza dell'intelligenza artificiale e può contenere imprecisioni. La versione inglese è il riferimento. I nomi delle tabelle e degli attributi sono identici in tutte le lingue perché corrispondono a quelli dell'implementazione PostgreSQL.
+
+**Descrizione (IT):** Questa tabella rappresenta gli edifici. Nell'architettura di ereditarietà del database, funge da sottotipo diretto della tabella [`enterprise`](enterprise.md). Non memorizza colonne descrittive ridondanti: usa invece una chiave primaria condivisa per ereditare tutti gli attributi di alto livello (come nome, posizione, tipo di gestione e geometria) dal record genitore `enterprise`.
+
+Le caratteristiche strutturali, economiche e fisiche di un edificio (anno di costruzione, materiali, numero di piani, costo e così via) sono memorizzate nella tabella [`building_component`](building_component.md).
 
 ## Struttura delle colonne
 
-| Colonna             | Tipo di dato | Definizione                                        | Valore di esempio  | Vincolo?    | Geometria? | Commenti                                                                                    |
-| :------------------ | :----------- | :------------------------------------------------- | :----------------- | :---------- | :--------- | :------------------------------------------------------------------------------------------ |
-| `id`                | BIGINT       | Identificativo univoco dell'edificio               | `3`                | PK, FK      | No         | Chiave primaria che funge anche da chiave esterna per enterprise.id                         |
-| `build_position`    | VARCHAR(255) | Posizione dell'edificio                            | `SINGLE_DETACHED`  | CHECK       | No         | Valori possibili: SINGLE_DETACHED, SEMI_DETACHED, ROW, NOT_IDENTIFICABLE                    |
-| `conservation`      | VARCHAR(255) | Stato di conservazione dell'edificio               | `POORLY_MANTAINED` | CHECK       | No         | Valori possibili: POORLY_MANTAINED, MODERATELY_MANTAINED, WELL_MANTAINED, NOT_IDENTIFIABLE  |
-| `construction_cost` | INTEGER      | Costo di costruzione stimato o effettivo           | `500000`           |             | No         |                                                                                             |
-| `economic_value`    | INTEGER      | Valore economico o di mercato attuale              | `1000000`          |             | No         |                                                                                             |
-| `floor_area`        | INTEGER      | Area totale dei piani (es. in metri quadrati)      | `1000`             |             | No         |                                                                                             |
-| `floor_height`      | INTEGER      | Altezza media di un singolo piano                  | `7`                |             | No         |                                                                                             |
-| `ground_floor`      | VARCHAR(255) | Tipologia/uso del piano terra                      | `OPEN`             | CHECK       | No         | Valori possibili: OPEN, CLOSE, NOT_IDENTIFIABLE                                             |
-| `horizontal_mat`    | VARCHAR(255) | Materiale delle strutture orizzontali (es. solai)  | `NOT_IDENTIFIABLE` | CHECK       | No         | Valori possibili: STEEL, WOOD, MASONRY_ADOBE, ecc.                                          |
-| `inhabitants`       | INTEGER      | Numero di persone che abitano o operano nell'edificio| `4`              |             | No         |                                                                                             |
-| `n_floors`          | INTEGER      | Numero di piani fuori terra                        | `3`                |             | No         |                                                                                             |
-| `n_under_floors`    | INTEGER      | Numero di piani interrati/seminterrati             | `1`                |             | No         |                                                                                             |
-| `quality`           | VARCHAR(255) | Qualità complessiva dell'edificio                  | `NOT_IDENTIFIABLE` | CHECK       | No         | Valori possibili: POOR, GOOD, ACCEPTABLE, NOT_IDENTIFIABLE                                  |
-| `regularity`        | VARCHAR(255) | Regolarità strutturale dell'edificio               | `NOT_IDENTIFIABLE` | CHECK       | No         | Valori possibili: NOT_REGULAR, COMPLETELY_REGULAR, ecc.                                     |
-| `retrofitting`      | VARCHAR(255) | Interventi di adeguamento/miglioramento eseguiti   | `NONE`             | CHECK       | No         | Valori possibili: NONE, VERTICAL, HORIZONTAL, COMPLETE, NOT_IDENTIFIABLE, ecc.              |
-| `roof_mat`          | VARCHAR(255) | Materiale dell'elemento di copertura (tetto)       | `NOT_IDENTIFIABLE` | CHECK       | No         | Valori possibili: STEEL, WOOD, MASONRY_ADOBE, ecc.                                          |
-| `vertical_mat`      | VARCHAR(255) | Materiale delle strutture verticali                | `NOT_IDENTIFIABLE` | CHECK       | No         | Valori possibili: STEEL, WOOD, MASONRY_ADOBE, ecc.                                          |
-| `year`              | INTEGER      | Anno di costruzione                                | `1999`             |             | No         |                                                                                             |
+| Colonna | Tipo di dato | Definizione | Valore di esempio | Vincolo? | Geometria? | Commenti |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `id` | BIGINT | Identificativo univoco dell'edificio | `3` | PK, FK | No | Chiave primaria che funge anche da chiave esterna verso `enterprise.id` |
 
 ## Relazioni
 
-- **Eredita da (Sottotipo di):** [`enterprise`](enterprise.md). La tabella `building` è un'estensione della tabella `enterprise`.
-- **Nota:** Per trovare il nome, la posizione geografica (`geometry`, `town`, `country`) o la Partita IVA di un edificio, devi consultare il record `enterprise` con lo stesso identico `id`.
+* **Eredita da (sottotipo di):** [`enterprise`](enterprise.md). La tabella `building` è un'estensione specializzata della tabella `enterprise`.
+* **Contiene:** Pur non essendo collegato direttamente tramite `building_id`, un edificio possiede le proprie parti fisiche attraverso la colonna `enterprise_id` della tabella `component`. Questi componenti includono spesso sottotipi specializzati, come:
+    * [`building_component`](building_component.md)
+    * [`added_block`](added_block.md)
+    * [`building_functionality`](building_functionality.md)
 
-## Query di Esempio
+!!! tip "Dove si trova il resto dei dati?"
+    Per trovare il nome, la posizione geografica (`geometry`, `town`, `country`) o la partita IVA di un edificio, devi unire questa tabella con il record `enterprise` che condivide lo stesso `id`. Le caratteristiche strutturali ed economiche si trovano in `building_component`, collegata all'edificio tramite `component.enterprise_id`.
 
-Recupera i dettagli completi di un edificio unendo i suoi dati strutturali specifici con i dati generali dell'impresa (come nome e città):
+## Query di esempio
+
+Recupera le caratteristiche di ciascun edificio unendo il relativo record di impresa con i suoi componenti edilizi:
 
 ```sql
 SELECT
     e.name,
     e.town,
-    b.n_floors,
-    b.construction_cost,
-    b.economic_value
+    bc.n_floors,
+    bc.construction_cost,
+    bc.economic_value
 FROM
     building b
 JOIN
     enterprise e ON b.id = e.id
+JOIN
+    component c ON c.enterprise_id = e.id
+JOIN
+    building_component bc ON bc.id = c.id
 WHERE
     e.type = 'BUILDING';
 ```

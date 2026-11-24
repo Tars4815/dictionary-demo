@@ -1,5 +1,8 @@
 # Tabelle: `building`
 
+!!! info "Abweichender Name in der Weboberfläche (GUI)"
+    Im PostgreSQL-Backend heißt diese Tabelle `building`, wie im Seitentitel angegeben. In der Oberfläche der Webanwendung erscheint sie als **Built environment**. Alle Aliasnamen finden Sie in der [Zuordnungstabelle](../backend-to-gui.md).
+
 !!! warning "KI-gestützte Übersetzung"
     Diese Seite wurde mit Unterstützung künstlicher Intelligenz übersetzt und kann Fehler enthalten. Maßgeblich ist die englische Version. Die Namen der Tabellen und Attribute sind in allen Sprachen identisch, da sie der PostgreSQL-Implementierung entsprechen.
 

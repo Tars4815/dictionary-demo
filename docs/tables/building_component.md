@@ -1,5 +1,8 @@
 # Table: `building_component`
 
+!!! info "Different name in the web-app (GUI)"
+    In the PostgreSQL backend, this table is named `building_component`, as shown in the page title. In the web-app interface it appears as **Principal structure**. All aliases are listed in the [correspondence table](../backend-to-gui.md).
+
 **Description (EN):** This table stores the structural, economic and physical characteristics of buildings, including construction details, material types and dimensions. In the database's inheritance architecture, it acts as a direct sub-type of the [`component`](component.md) table. It does not store redundant descriptive columns; instead, it uses a shared primary key to inherit all high-level attributes (such as name, location and geometry) from its parent `component` record.
 
 ## Column Structure

@@ -1,5 +1,8 @@
 # Table: `owner`
 
+!!! info "Different name in the web-app (GUI)"
+    In the PostgreSQL backend, this table is named `owner`, as shown in the page title. In the web-app interface it appears as **Owner profiles**. All aliases are listed in the [correspondence table](../backend-to-gui.md).
+
 **Description (EN):** This entity stores the universal, high-level attributes—such as identification and contacts for owner records.
 
 ## Column Structure

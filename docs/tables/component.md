@@ -1,5 +1,8 @@
 # Table: `component`
 
+!!! info "Different name in the web-app (GUI)"
+    In the PostgreSQL backend, this table is named `component`, as shown in the page title. In the web-app interface it appears as **Elements & production (all subclasses)**. All aliases are listed in the [correspondence table](../backend-to-gui.md).
+
 **Description (EN):** This table stores the universal, high-level attributes, such as identification and geographical location, for all major physical or business components. Specific types of components (like [added blocks](added_block.md), [artistic goods](artistic_good.md), or other) store their specialized data in separate sub-tables that share the same ID.
 
 ## Column Structure

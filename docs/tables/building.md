@@ -1,5 +1,8 @@
 # Table: `building`
 
+!!! info "Different name in the web-app (GUI)"
+    In the PostgreSQL backend, this table is named `building`, as shown in the page title. In the web-app interface it appears as **Built environment**. All aliases are listed in the [correspondence table](../backend-to-gui.md).
+
 **Description (EN):** This table represents buildings. In the database's inheritance architecture, it acts as a direct sub-type of the [`enterprise`](enterprise.md) table. It does not store redundant descriptive columns; instead, it uses a shared primary key to inherit all high-level attributes (such as name, location, management type, and geometry) from its parent `enterprise` record.
 
 The structural, economic and physical characteristics of a building (construction year, materials, number of floors, cost, and so on) are stored in the [`building_component`](building_component.md) table.

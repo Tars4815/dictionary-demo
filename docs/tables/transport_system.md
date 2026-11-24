@@ -1,5 +1,8 @@
 # Table: `transport_system`
 
+!!! info "Different name in the web-app (GUI)"
+    In the PostgreSQL backend, this table is named `transport_system`, as shown in the page title. In the web-app interface it appears as **Lifelines - Transport**. All aliases are listed in the [correspondence table](../backend-to-gui.md).
+
 **Description (EN):** This table represents transport network systems. In the database's inheritance architecture, it acts as a direct sub-type of the [`network_system`](network_system.md) table. It does not store redundant descriptive columns; instead, it uses a shared primary key to inherit all high-level attributes (such as name, location, management type, and geometry) from its parent `network_system`, which on turn is a child of a [`enterprise`](enterprise.md) record.
 
 ## Column Structure

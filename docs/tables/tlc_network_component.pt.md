@@ -1,5 +1,8 @@
 # Tabela: `tlc_network_component`
 
+!!! info "Nome diferente na interface web (GUI)"
+    No backend PostgreSQL, esta tabela chama-se `tlc_network_component`, como indicado no título da página. Na interface da aplicação web aparece como **Telecom element**. Todos os aliases estão na [tabela de correspondência](../backend-to-gui.md).
+
 !!! warning "Tradução assistida por IA"
     Esta página foi traduzida com a assistência de inteligência artificial e pode conter erros. A versão em inglês é a referência. Os nomes das tabelas e dos atributos são idênticos em todas as línguas porque correspondem aos da implementação PostgreSQL.
 

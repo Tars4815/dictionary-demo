@@ -1,5 +1,8 @@
 # Table : `network_service`
 
+!!! info "Nom différent dans l'interface web (GUI)"
+    Dans le backend PostgreSQL, cette table s'appelle `network_service`, comme indiqué dans le titre de la page. Dans l'interface de l'application web, elle apparaît sous le nom **Telecom service/Electrical service/Transport service**. Tous les alias figurent dans le [tableau de correspondance](../backend-to-gui.md).
+
 !!! warning "Traduction assistée par IA"
     Cette page a été traduite avec l'assistance de l'intelligence artificielle et peut contenir des erreurs. La version anglaise fait foi. Les noms des tables et des attributs sont identiques dans toutes les langues car ils correspondent à ceux de l'implémentation PostgreSQL.
 

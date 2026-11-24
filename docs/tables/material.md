@@ -1,5 +1,8 @@
 # Table: `material`
 
+!!! info "Different name in the web-app (GUI)"
+    In the PostgreSQL backend, this table is named `material`, as shown in the page title. In the web-app interface it appears as **Stocks - Stored inputs**. All aliases are listed in the [correspondence table](../backend-to-gui.md).
+
 **Description (EN):** This table represents material. In the database's inheritance architecture, it acts as a direct sub-type of the [`fixed_asset`](fixed_asset.md) table. It does not store redundant descriptive columns; instead, it uses a shared primary key to inherit all high-level attributes (such as name, location, management type, and geometry) from its parent `component` record.
 
 ## Column Structure

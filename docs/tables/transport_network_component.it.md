@@ -1,5 +1,8 @@
 # Tabella: `transport_network_component`
 
+!!! info "Nome diverso nell'interfaccia web (GUI)"
+    Nel backend PostgreSQL questa tabella si chiama `transport_network_component`, come indicato nel titolo della pagina. Nell'interfaccia della web-app compare come **Transport element**. Tutti gli alias sono riportati nella [tabella di corrispondenza](../backend-to-gui.md).
+
 !!! warning "Traduzione assistita dall'IA"
     Questa pagina è stata tradotta con l'assistenza dell'intelligenza artificiale e può contenere imprecisioni. La versione inglese è il riferimento. I nomi delle tabelle e degli attributi sono identici in tutte le lingue perché corrispondono a quelli dell'implementazione PostgreSQL.
 
